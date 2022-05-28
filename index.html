@@ -4,16 +4,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.98.0">
+  <title>Die Profireiniger Estera GmbH</title>
+  <link rel="canonical" href="https://profireiniger.at">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .video-container {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+
+    .video-container::after {
+      padding-top: 56.25%;
+      display: block;
+      content: '';
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
 </head>
 
-<body>
+<body id="page-top">
 
-  <nav class="navbar fixed-top navbar-expand-lg alert alert-primary m-2">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary border-bottom">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="assets/img/profireiniger-text-logo.svg" alt="Profireiniger"
+      <a class="navbar-brand" href="#"><img src="assets/img/profireiniger-text-logo-white.svg" alt="Profireiniger"
           height="40px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,10 +47,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#page-top">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link active" aria-current="page" href="#services">Dienstleistungen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#video">Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#kontakt">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#impressum">Impressum</a>
           </li>
         </ul>
       </div>
@@ -78,11 +112,30 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
   </div>
 
-  <div class="album py-5">
+  <section class="text-center container">
+    <div class="row">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <img src="assets/img/profireiniger-full-logo.svg" alt="Die Profireiniger Estera GmbH" width="300px">
+        <h1 class="fw-light">Album example</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator,
+          etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-2" id="services">
     <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Dienstleistungen</h2>
+        </div>
+      </div>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
@@ -135,71 +188,183 @@
 
       </div>
     </div>
+  </div>
 
-    <div class="container mt-5">
-      <div class="row mt-5">
-        <div class="col-md-8 p-4">
-          <h3>Qui ipsorum lingua Celtae, nostra Galli appellantur.</h3>
-          <p>Cum sociis natoque penatibus et magnis dis parturient. Petierunt uti sibi concilium totius Galliae in diem
-            certam indicere. Nec dubitamus multa iter quae et nos invenerat.</p>
-          <p>Tityre, tu patulae recubans sub tegmine fagi dolor. Quid securi etiam tamquam eu fugiat nulla pariatur. Quis
-            aute iure reprehenderit in voluptate velit esse. Quisque placerat facilisis egestas cillum dolore.</p>
-          <p>Mercedem aut nummos unde unde extricat, amaras. Prima luce, cum quibus mons aliud consensu ab eo. Unam
-            incolunt Belgae, aliam Aquitani, tertiam. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
-            Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</p>
-          <p>Quisque ut dolor gravida, placerat libero vel, euismod. Morbi fringilla convallis sapien, id pulvinar odio
-            volutpat. Inmensae subtilitatis, obscuris et malesuada fames. Non equidem invideo, miror magis posuere velit
-            aliquet. Pellentesque habitant morbi tristique senectus et netus.</p>
-        </div>
-  
-        <div class="col-md-4">
-          <img src="assets/img/cleaners-01.jpg" alt="" class="img-fluid mt-5">
-        </div>
-      </div>
-  
-      <div class="row mt-5">
-        <div class="col-md-4">
-          <img src="assets/img/cleaners-05.jpg" alt="" class="img-fluid mt-5">
-        </div>
-        <div class="col-md-8 p-4">
-          <h3>Paullum deliquit, ponderibus modulisque suis ratio utitur.</h3>
-          <p>Cum sociis natoque penatibus et magnis dis parturient. Petierunt uti sibi concilium totius Galliae in diem
-            certam indicere. Nec dubitamus multa iter quae et nos invenerat.</p>
-          <p>Tityre, tu patulae recubans sub tegmine fagi dolor. Quid securi etiam tamquam eu fugiat nulla pariatur. Quis
-            aute iure reprehenderit in voluptate velit esse. Quisque placerat facilisis egestas cillum dolore.</p>
-          <p>Mercedem aut nummos unde unde extricat, amaras. Prima luce, cum quibus mons aliud consensu ab eo. Unam
-            incolunt Belgae, aliam Aquitani, tertiam. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
-            Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</p>
-          <p>Quisque ut dolor gravida, placerat libero vel, euismod. Morbi fringilla convallis sapien, id pulvinar odio
-            volutpat. Inmensae subtilitatis, obscuris et malesuada fames. Non equidem invideo, miror magis posuere velit
-            aliquet. Pellentesque habitant morbi tristique senectus et netus.</p>
-        </div>
+  <div class="container-fluid bg-success text-light">
+    <div class="row mt-5">
+      <div class="col-md-6 offset-md-1 p-4">
+        <h3>Qui ipsorum lingua Celtae, nostra Galli appellantur.</h3>
+        <p>Cum sociis natoque penatibus et magnis dis parturient. Petierunt uti sibi concilium totius Galliae in diem
+          certam indicere. Nec dubitamus multa iter quae et nos invenerat.</p>
+        <p>Tityre, tu patulae recubans sub tegmine fagi dolor. Quid securi etiam tamquam eu fugiat nulla pariatur. Quis
+          aute iure reprehenderit in voluptate velit esse. Quisque placerat facilisis egestas cillum dolore.</p>
+        <p>Mercedem aut nummos unde unde extricat, amaras. Prima luce, cum quibus mons aliud consensu ab eo. Unam
+          incolunt Belgae, aliam Aquitani, tertiam. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+          Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</p>
+        <p>Quisque ut dolor gravida, placerat libero vel, euismod. Morbi fringilla convallis sapien, id pulvinar odio
+          volutpat. Inmensae subtilitatis, obscuris et malesuada fames. Non equidem invideo, miror magis posuere velit
+          aliquet. Pellentesque habitant morbi tristique senectus et netus.</p>
       </div>
 
-      <div class="row mt-5">
-        <div class="col-md-8 p-4">
-          <h3>Cras mattis iudicium purus sit amet fermentum.</h3>
-          <p>Cum sociis natoque penatibus et magnis dis parturient. Petierunt uti sibi concilium totius Galliae in diem
-            certam indicere. Nec dubitamus multa iter quae et nos invenerat.</p>
-          <p>Tityre, tu patulae recubans sub tegmine fagi dolor. Quid securi etiam tamquam eu fugiat nulla pariatur. Quis
-            aute iure reprehenderit in voluptate velit esse. Quisque placerat facilisis egestas cillum dolore.</p>
-          <p>Mercedem aut nummos unde unde extricat, amaras. Prima luce, cum quibus mons aliud consensu ab eo. Unam
-            incolunt Belgae, aliam Aquitani, tertiam. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
-            Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</p>
-          <p>Quisque ut dolor gravida, placerat libero vel, euismod. Morbi fringilla convallis sapien, id pulvinar odio
-            volutpat. Inmensae subtilitatis, obscuris et malesuada fames. Non equidem invideo, miror magis posuere velit
-            aliquet. Pellentesque habitant morbi tristique senectus et netus.</p>
+      <div class="col-md-4">
+        <img src="assets/img/cleaners-01.jpg" alt="" class="img-fluid mt-5 rounded">
+        <p class="p-3 text-center">Ambitioni dedisse scripsisse iudicaretur. Excepteur sint obcaecat cupiditat non
+          proident culpa.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row mt-4">
+      <div class="col-md-4 offset-md-1">
+        <img src="assets/img/cleaners-05.jpg" alt="" class="img-fluid mt-5 rounded">
+        <p class="p-3 text-center">Quam temere in vitiis, legem sancimus haerentia. A communi observantia non est
+          recedendum.</p>
+      </div>
+      <div class="col-md-6 p-4">
+        <h3>Paullum deliquit, ponderibus modulisque suis ratio utitur.</h3>
+        <p>Cum sociis natoque penatibus et magnis dis parturient. Petierunt uti sibi concilium totius Galliae in diem
+          certam indicere. Nec dubitamus multa iter quae et nos invenerat.</p>
+        <p>Tityre, tu patulae recubans sub tegmine fagi dolor. Quid securi etiam tamquam eu fugiat nulla pariatur. Quis
+          aute iure reprehenderit in voluptate velit esse. Quisque placerat facilisis egestas cillum dolore.</p>
+        <p>Mercedem aut nummos unde unde extricat, amaras. Prima luce, cum quibus mons aliud consensu ab eo. Unam
+          incolunt Belgae, aliam Aquitani, tertiam. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+          Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</p>
+        <p>Quisque ut dolor gravida, placerat libero vel, euismod. Morbi fringilla convallis sapien, id pulvinar odio
+          volutpat. Inmensae subtilitatis, obscuris et malesuada fames. Non equidem invideo, miror magis posuere velit
+          aliquet. Pellentesque habitant morbi tristique senectus et netus.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-primary text-light">
+    <div class="row mt-5">
+      <div class="col-md-6 offset-md-1 p-4">
+        <h3>Aquitani, tertiam Nihilne</h3>
+        <p>Cum sociis natoque penatibus et magnis dis parturient. Petierunt uti sibi concilium totius Galliae in diem
+          certam indicere. Nec dubitamus multa iter quae et nos invenerat.</p>
+        <p>Tityre, tu patulae recubans sub tegmine fagi dolor. Quid securi etiam tamquam eu fugiat nulla pariatur. Quis
+          aute iure reprehenderit in voluptate velit esse. Quisque placerat facilisis egestas cillum dolore.</p>
+        <p>Mercedem aut nummos unde unde extricat, amaras. Prima luce, cum quibus mons aliud consensu ab eo. Unam
+          incolunt Belgae, aliam Aquitani, tertiam. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+          Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</p>
+        <p>Quisque ut dolor gravida, placerat libero vel, euismod. Morbi fringilla convallis sapien, id pulvinar odio
+          volutpat. Inmensae subtilitatis, obscuris et malesuada fames. Non equidem invideo, miror magis posuere velit
+          aliquet. Pellentesque habitant morbi tristique senectus et netus.</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="assets/img/cleaners-01.jpg" alt="" class="img-fluid mt-5 rounded">
+        <p class="p-3 text-center">Morbi odio eros, volutpat ut pharetra vitae, lobortis sed nibh. Hi omnes lingua,
+          institutis, legibus inter se differunt.</p>
+      </div>
+    </div>
+  </div>
+  <div id="video"></div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h3>Videovorstellung</h3>
+        <div class="video-container">
+          <iframe id="youtube-video" src="https://www.youtube.com/embed/rZMfmWkXdAY" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-  
-        <div class="col-md-4">
-          <img src="assets/img/cleaners-01.jpg" alt="" class="img-fluid mt-5">
+        <br /><a href="https://youtu.be/rZMfmWkXdAY" target="_blank" class="btn btn-outline-primary btn-sm m-2">Video
+          auf Youtube ansehen</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5 mb-1" id="kontakt">
+    <div class="row">
+      <div class="col-6 p-4">
+        <h2>Kontakt</h2>
+        <p>Phasellus laoreet lorem vel dolor tempus vehicula. At nos hinc posthac, sitientis piros Afros. Donec sed odio
+          operae, eu vulputate felis rhoncus. Quid securi etiam tamquam eu fugiat nulla pariatur. Quo usque tandem
+          abutere, Catilina, patientia nostra? Cras mattis iudicium purus sit amet fermentum.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus. Mercedem aut nummos unde unde extricat, amaras.
+          Morbi odio eros, volutpat ut pharetra vitae, lobortis sed nibh. A communi observantia non est recedendum. Quis
+          aute iure reprehenderit in voluptate velit esse. Non equidem invideo, miror magis posuere velit aliquet.</p>
+        <p>Nihil hic munitissimus habendi senatus locus, nihil horum? Quam temere in vitiis, legem sancimus haerentia.
+          Ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+        <p>Quisque placerat facilisis egestas cillum dolore. Tu quoque, Brute, fili mi, nihil timor populi, nihil!
+          Contra legem facit qui id facit quod lex prohibet.</p>
+      </div>
+      <div class="col-6 p-4">
+        <p class="text-center"><img src="assets/img/profireiniger-full-logo.svg" alt="Die Profireiniger Estera GmbH"
+            width="200px"></p>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h3>Anfahrt</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.7279849597176!2d23.326365915593534!3d42.68830402230116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa850b6d0d43dd%3A0x6c23820008bb87d2!2sPatriarch%20Evtimiy%2C%20ul.%20%22Graf%20Ignatiev%22%2C%201142%20Sofia%20Center%2C%20Sofia!5e0!3m2!1sde!2sbg!4v1653774978486!5m2!1sde!2sbg"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" id="google-maps" class="border rounded"></iframe>
+        <a href="https://goo.gl/maps/FBfWPTmYJGnSS7j38" target="_blank" class="btn btn-outline-primary btn-sm m-2">Karte
+          auf Google Maps ansehen</a>
+      </div>
+    </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"></script>
+
+  <div class="container my-5" id="impressum">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Impressum</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 p-4">
+        <p>Pellentesque habitant morbi tristique senectus et netus. Mercedem aut nummos unde unde extricat, amaras.
+          Morbi odio eros, volutpat ut pharetra vitae, lobortis sed nibh. A communi observantia non est recedendum. Quis
+          aute iure reprehenderit in voluptate velit esse. Non equidem invideo, miror magis posuere velit aliquet.</p>
+        <p>Quisque placerat facilisis egestas cillum dolore. Tu quoque, Brute, fili mi, nihil timor populi, nihil!
+          Contra legem facit qui id facit quod lex prohibet.</p>
+      </div>
+      <div class="col-md-6 p-4">
+        <p>Phasellus laoreet lorem vel dolor tempus vehicula. At nos hinc posthac, sitientis piros Afros. Donec sed odio
+          operae, eu vulputate felis rhoncus. Quid securi etiam tamquam eu fugiat nulla pariatur. Quo usque tandem
+          abutere, Catilina, patientia nostra? Cras mattis iudicium purus sit amet fermentum.</p>
+        <p>Nihil hic munitissimus habendi senatus locus, nihil horum? Quam temere in vitiis, legem sancimus haerentia.
+          Ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-primary text-white">
+    <div class="container">
+      <p class="m-0 text-center"><img src="assets/img/profireiniger-full-logo-white.svg" alt="Die Profireiniger - Estera GmbH" width="200px"></p>
+      <p class="m-0 text-center">Die Profireiniger - Estera GmbH</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <div class="fixed-bottom alert alert-info mx-2 p-3" id="dsgvo-warnung">
+    <div class="row">
+      <div class="col-12 text-center px-4">
+        <h4>Ihre Privatsphäre ist uns wichtig</h4>
+        <p>Um die Website optimal gestalten zu können, verarbeiten wir Ihre Endgeräteinformationen und verwenden
+          Cookies, die für das Ansehen von Videos und die Verwendung des eingebetteten Kartendiensts erforderlich sind.
+          Dabei können Daten auf Basis Ihrer
+          Einwilligung an jeweils erforderliche Dritte weitergegeben werden.</p>
+        <button type="button" class="btn btn-primary">Akzeptieren</button>
+        <button type="button" class="btn btn-secondary">Ablehnen</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
