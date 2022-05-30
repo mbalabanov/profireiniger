@@ -13,6 +13,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: access-5000764687.ud-webspace.de/profireiniger
+        server: access-5000764687.ud-webspace.de/marincomics.com/profireiniger
         username: a111771
+        port: 22
         password: ${{ secrets.ftp_password }}
