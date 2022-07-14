@@ -9,13 +9,21 @@
   <link rel="canonical" href="https://profireiniger.at">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/customvideo.css" rel="stylesheet">
+
+  <style>
+    .carousel-caption {
+      background: rgba(0,0,0,0.5);
+      border-radius: 1em;
+    }
+  </style>
+
 </head>
 
 <body id="page-top">
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary border-bottom">
+  <nav class="navbar fixed-top navbar-expand-lg bg-light border-bottom">
     <div class="container-fluid">
-      <a class="navbar-brand p-2 mx-5" href="index.html"><img src="assets/img/profireiniger-text-logo-white.svg"
+      <a class="navbar-brand p-2 mx-5" href="index.html"><img src="assets/img/profireiniger-text-logo.svg"
           alt="Profireiniger" height="40px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,165 +76,162 @@
     </div>
   </nav>
 
-  <div class="container mt-5 pt-5">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 
-    <div id="carouselExampleCaptions" class="carousel slide border border-primary" data-bs-ride="carousel">
-
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-          aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-          aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-          aria-label="Slide 6"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
-          aria-label="Slide 7"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
-          aria-label="Slide 8"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
-          aria-label="Slide 9"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"
-          aria-label="Slide 10"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10"
-          aria-label="Slide 11"></button>
-      </div>
-
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="5000">
-          <a href="unterhaltsreinigung.html"><img src="assets/img/photos/slider/cleaning-counter.jpg"
-              class="d-block w-100" alt="Unterhaltsreinigung"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Unterhaltsreinigung</h5>
-            <p class="slider-text">Lassen Sie Ihr Büro, Ihre Arztpraxis, Kanzlei oder Ordination von unserem
-              Fachpersonal regelmäßig
-              reinigen.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="aussenreinigung.html"><img src="assets/img/photos/slider/facade.jpg" class="d-block w-100"
-              alt="Außenreinigung"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Außenreinigung</h5>
-            <p class="slider-text">Wir sorgen dafür, dass Ihr Gebäude auch von außen einen blendenden Eindruck macht.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="fensterreinigung.html"><img src="assets/img/photos/slider/cleaning-windows.jpg" class="d-block w-100"
-              alt="Fensterreinigung"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Fensterreinigung</h5>
-            <p class="slider-text">Wir reinigen ihre Fenster mit und ohne Rahmenreinigung und bringen auch alle anderen
-              Glasoberflächen zum glänzen mit Sorgfalt und Behutsamkeit.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="grundreinigung.html"><img src="assets/img/photos/slider/grundreinigung.jpg" class="d-block w-100"
-              alt="Grundreinigung"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Grundreinigung</h5>
-            <p class="slider-text">Wenn Sie sich für die Grundreinigung Ihres Büros oder Wohnung interessieren, dann
-              sind wir Ihr
-              leistungsstarker Partner.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="hotelreinigung.html"><img src="assets/img/photos/slider/hotel-room.jpg" class="d-block w-100"
-              alt="Hotelreinigung"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Hotelreinigung</h5>
-            <p class="slider-text">Damit der erste Eindruck stimmt: Wir Profireiniger rücken für Sie jeden Winkel Ihres
-              Hotels in ein
-              perfektes Licht.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="stiegenhausreinigung.html"><img src="assets/img/photos/slider/stairs.jpg" class="d-block w-100"
-              alt="Stiegenhausreinigung"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Stiegenhausreinigung</h5>
-            <p class="slider-text">Wo viele Menschen arbeiten oder als Besucher hin kommen, müssen Eingangsbereiche und
-              Treppenhäuser schon
-              allein durch die Nutzungsfrequenzen extremen Belastungen standhalten.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="terrassenreinigung.html"><img src="assets/img/photos/slider/terrace-2.jpg" class="d-block w-100"
-              alt="Terrassenreinigung"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Terrassenreinigung</h5>
-            <p class="slider-text">Die Terrasse ist der Ort an dem man sich nach einem anstrengenden Arbeitstag erholen
-              kann und in einer
-              lauen Abendstunde zur Ruhe kommt.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="tagesfrau.html"><img src="assets/img/photos/slider/tagesfrau-im-service.jpg" class="d-block w-100"
-              alt="Tagesfrau im Service"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Tagesfrau im Service</h5>
-            <p class="slider-text">Die Tagesfrau im Service erledigt ständig vor Ort anfallende Reinigungs- und
-              Serviceleistungen. Sie haben
-              dann unsere Mitarbeiterin tageweise vollständig zu Ihrer Verfügung.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="gartenpflege.html"><img src="assets/img/photos/slider/garding.jpg" class="d-block w-100"
-              alt="Gartenpflege"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Gartenpflege</h5>
-            <p class="slider-text">Wir betreuen Ihre Grünflächen. Wir sorgen dafür, dass Ihr Garten gepflegt und
-              wunderschön anzusehen ist.
-              Dazu bedarf viel Liebe und Erfahrung. Wir Profireiniger haben den grünen Daumen, um Ihren Garten in Schuss
-              zu halten.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="waescheservice.html"><img src="assets/img/photos/slider/washing-ironing-service.jpg"
-              class="d-block w-100" alt="Wäscheservice"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Wäscheservice</h5>
-            <p class="slider-text">Wir waschen Ihre private Wäsche, aber auch die Wäsche von Betrieben und auch Hotels.
-              Vor Ort oder per
-              Abholung.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="waescheservice.html"><img src="assets/img/photos/slider/ironing-service.jpg" class="d-block w-100"
-              alt="Bügelservice"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Bügelservice</h5>
-            <p class="slider-text">Neben sauberer Wäsche ist es immer sehr wichtig, dass die Wäsche auch ordentlich
-              aussieht. Hier kann das
-              Bügeln der Wäsche dafür sorgen, dass die Wäsche gleich ganz anders aussieht. Wir bügeln oder mangeln Ihnen
-              Ihre Wäsche.</p>
-          </div>
-        </div>
-      </div>
-
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+        aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+        aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+        aria-label="Slide 8"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+        aria-label="Slide 9"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"
+        aria-label="Slide 10"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10"
+        aria-label="Slide 11"></button>
     </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <a href="unterhaltsreinigung.html"><img src="assets/img/photos/carousel/cleaning-counter.jpg"
+            class="d-block w-100" alt="Unterhaltsreinigung"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-text">Unterhaltsreinigung</h5>
+          <p class="slider-text">Lassen Sie Ihr Büro, Ihre Arztpraxis, Kanzlei oder Ordination von unserem
+            Fachpersonal regelmäßig
+            reinigen.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="aussenreinigung.html"><img src="assets/img/photos/carousel/facade.jpg" class="d-block w-100"
+            alt="Außenreinigung"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-text">Außenreinigung</h5>
+          <p class="slider-text">Wir sorgen dafür, dass Ihr Gebäude auch von außen einen blendenden Eindruck macht.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="fensterreinigung.html"><img src="assets/img/photos/carousel/cleaning-windows.jpg" class="d-block w-100"
+            alt="Fensterreinigung"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-text">Fensterreinigung</h5>
+          <p class="slider-text">Wir reinigen ihre Fenster mit und ohne Rahmenreinigung und bringen auch alle anderen
+            Glasoberflächen zum glänzen mit Sorgfalt und Behutsamkeit.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="grundreinigung.html"><img src="assets/img/photos/carousel/grundreinigung.jpg" class="d-block w-100"
+            alt="Grundreinigung"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-text">Grundreinigung</h5>
+          <p class="slider-text">Wenn Sie sich für die Grundreinigung Ihres Büros oder Wohnung interessieren, dann
+            sind wir Ihr
+            leistungsstarker Partner.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="hotelreinigung.html"><img src="assets/img/photos/carousel/hotel-room.jpg" class="d-block w-100"
+            alt="Hotelreinigung"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-text">Hotelreinigung</h5>
+          <p class="slider-text">Damit der erste Eindruck stimmt: Wir Profireiniger rücken für Sie jeden Winkel Ihres
+            Hotels in ein
+            perfektes Licht.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="stiegenhausreinigung.html"><img src="assets/img/photos/carousel/stairs.jpg" class="d-block w-100"
+            alt="Stiegenhausreinigung"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-text">Stiegenhausreinigung</h5>
+          <p class="slider-text">Wo viele Menschen arbeiten oder als Besucher hin kommen, müssen Eingangsbereiche und
+            Treppenhäuser schon
+            allein durch die Nutzungsfrequenzen extremen Belastungen standhalten.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="terrassenreinigung.html"><img src="assets/img/photos/carousel/terrace-2.jpg" class="d-block w-100"
+            alt="Terrassenreinigung"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-text">Terrassenreinigung</h5>
+          <p class="slider-text">Die Terrasse ist der Ort an dem man sich nach einem anstrengenden Arbeitstag erholen
+            kann und in einer
+            lauen Abendstunde zur Ruhe kommt.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="tagesfrau.html"><img src="assets/img/photos/carousel/tagesfrau-im-service.jpg" class="d-block w-100"
+            alt="Tagesfrau im Service"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-text">Tagesfrau im Service</h5>
+          <p class="slider-text">Die Tagesfrau im Service erledigt ständig vor Ort anfallende Reinigungs- und
+            Serviceleistungen. Sie haben
+            dann unsere Mitarbeiterin tageweise vollständig zu Ihrer Verfügung.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="gartenpflege.html"><img src="assets/img/photos/carousel/garding.jpg" class="d-block w-100"
+            alt="Gartenpflege"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-text">Gartenpflege</h5>
+          <p class="slider-text">Wir betreuen Ihre Grünflächen. Wir sorgen dafür, dass Ihr Garten gepflegt und
+            wunderschön anzusehen ist.
+            Dazu bedarf viel Liebe und Erfahrung. Wir Profireiniger haben den grünen Daumen, um Ihren Garten in Schuss
+            zu halten.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="waescheservice.html"><img src="assets/img/photos/carousel/washing-ironing-service.jpg"
+            class="d-block w-100" alt="Wäscheservice"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-text">Wäscheservice</h5>
+          <p class="slider-text">Wir waschen Ihre private Wäsche, aber auch die Wäsche von Betrieben und auch Hotels.
+            Vor Ort oder per
+            Abholung.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="waescheservice.html"><img src="assets/img/photos/carousel/ironing-service.jpg" class="d-block w-100"
+            alt="Bügelservice"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-text">Bügelservice</h5>
+          <p class="slider-text">Neben sauberer Wäsche ist es immer sehr wichtig, dass die Wäsche auch ordentlich
+            aussieht. Hier kann das
+            Bügeln der Wäsche dafür sorgen, dass die Wäsche gleich ganz anders aussieht. Wir bügeln oder mangeln Ihnen
+            Ihre Wäsche.</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
   <section class="text-center container">
     <div class="row">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Willkommen bei Profireiniger!</h1>
+        <h1 class="fw-bold text-primary">Willkommen bei Profireiniger!</h1>
         <p class="lead text-muted">Ihr Partner für Sauberkeit und Hygiene.<br />Schnell - Gründlich - Zuverlässig</p>
         <p>
           <a href="#kontakt" class="btn btn-primary my-2">Angebot anfordern</a>
@@ -242,7 +247,7 @@
           <h2>Unsere Dienstleistungen</h2>
         </div>
       </div>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
             <a href="bauendreinigung.html"><img src="assets/img/photos/construction-site.jpg" alt="Bauendreinigung"
@@ -452,9 +457,9 @@
     </div>
   </div>
 
-  <div class="container-fluid bg-success text-light p-4 mt-4">
+  <div class="container-fluid bg-primary text-light p-4 my-4">
     <div class="container">
-      <div class="row mt-5">
+      <div class="row my-5">
         <div class="col-md-6 offset-md-1 p-4">
           <h3>Profireiniger: Schnell - Gründlich - Zuverlässig</h3>
 
@@ -480,9 +485,9 @@
           <p class="p-3">Ihr Partner für Sauberkeit und Hygiene.<br/>Schnell,
             Gründlich, Zuverlässig</p>
           <a href="assets/pdf/profireiniger-flyer.pdf" target="_blank"><img src="assets/img/flyer.jpg"
-              alt="Profireiniger Flyer runterladen" class="rounded" width="120px"></a>
+              alt="Profireiniger Flyer download" class="rounded" width="120px"></a>
           <p class="p-3"><a href="assets/pdf/profireiniger-flyer.pdf" target="_blank"
-              class="btn btn-sm btn-primary">Flyer runterladen</a></p>
+              class="btn btn-sm btn-outline-light">Flyer download</a></p>
         </div>
       </div>
     </div>
@@ -543,60 +548,58 @@
         -->
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h3>Anfahrt zum Büro</h3>
-        <div id="mapsReplacement" class="text-center">
-          <div class="alert alert-warning" role="alert">
-            <p>Unsere Büroadresse lautet <strong>Frankgasse 6, 1090 Wien</strong>. Sie finden uns gleich hinter der
-              Votivkirche.</p>
-            <p>Sie sehen die Karte von Google Maps nicht, weil Sie die Cookie-Bestimmungen abgelehnt haben. Sie können
-              die <a href="https://goo.gl/maps/SgLF8jXq81k6paHz9" target="_blank">Karte direkt auf Google Maps
-                ansehen</a> oder den <a href="#" id="mapAccept">Cookie-Bestimmungen zustimmen.</a></p>
-          </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3>Anfahrt zum Büro</h3>
+      <div id="mapsReplacement" class="text-center">
+        <div class="alert alert-warning m-5" role="alert">
+          <p>Unsere Büroadresse lautet <strong>Frankgasse 6, 1090 Wien</strong>. Sie finden uns gleich hinter der
+            Votivkirche.</p>
+          <p>Sie sehen die Karte von Google Maps nicht, weil Sie die Cookie-Bestimmungen abgelehnt haben. Sie können
+            die <a href="https://goo.gl/maps/SgLF8jXq81k6paHz9" target="_blank">Karte direkt auf Google Maps
+              ansehen</a> oder den <a href="#" id="mapAccept">Cookie-Bestimmungen zustimmen.</a></p>
         </div>
       </div>
     </div>
   </div>
-
 
   <div class="container my-5" id="impressum">
-    <div class="alert alert-secondary" role="alert">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2>Impressum</h2>
-        </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Impressum</h2>
       </div>
-      <div class="row">
-        <div class="col-md-4 p-4">
-          <img src="assets/img/profireiniger-full-logo.svg" alt="Die Profireiniger Estera GmbH" width="180px">
-          <p><strong>Profireiniger Estera GmbH</strong><br />
-            <strong>Email:</strong> <a href="mailto:office@profireiniger.at">office@profireiniger.at</a><br />
-            <!-- <strong>Telefon:</strong> 01 / 123 456 789<br /> -->
-            <strong>Büroadresse:</strong> Frankgasse 6, 1090 Wien<br />
-          </p>
-        </div>
-        <div class="col-md-8 p-4">
-          <p><strong>Vollständiger Firmenname:</strong> Estera GmbH<br />
-            <strong>Firmenbuchnummer:</strong> FN 578149 w<br />
-            <strong>Ort der Gewerbebrechetigung:</strong> Heiligenstädter Straße 111/3, 1190 Wien<br />
-            <strong>Rechtsform:</strong> GmbH<br />
-            <strong>Firmenbuchgericht:</strong> Handelsgericht Wien<br />
-            <strong>Geschäftsführer:</strong> Frau Gordea Estera-Sinziana<br />
-            <strong>Gewerbeordnung:</strong> Anwendbare gewerbe- oder berufsrechtliche Vorschriften in der
-            Gewerbeordnung 1994,
-            abrufbar unter <a href="http://www.ris.bka.gv.at">www.ris.bka.gv.at<a />
-          </p>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 p-4">
+        <img src="assets/img/profireiniger-full-logo.svg" alt="Die Profireiniger Estera GmbH" width="180px">
+        <p><strong>Profireiniger Estera GmbH</strong><br />
+          <strong>Email:</strong> <a href="mailto:office@profireiniger.at">office@profireiniger.at</a><br />
+          <!-- <strong>Telefon:</strong> 01 / 123 456 789<br /> -->
+          <strong>Büroadresse:</strong> Frankgasse 6, 1090 Wien<br />
+        </p>
+      </div>
+      <div class="col-md-8 p-4">
+        <p><strong>Vollständiger Firmenname:</strong> Estera GmbH<br />
+          <strong>Firmenbuchnummer:</strong> FN 578149 w<br />
+          <strong>Ort der Gewerbeberechtigung:</strong> Heiligenstädter Straße 111/3, 1190 Wien<br />
+          <strong>Rechtsform:</strong> GmbH<br />
+          <strong>Firmenbuchgericht:</strong> Handelsgericht Wien<br />
+          <strong>Geschäftsführer:</strong> Frau Gordea Estera-Sinziana<br />
+          <strong>Gewerbeordnung:</strong> Anwendbare gewerbe- oder berufsrechtliche Vorschriften in der
+          Gewerbeordnung 1994,
+          abrufbar unter <a href="http://www.ris.bka.gv.at">www.ris.bka.gv.at<a />
+        </p>
       </div>
     </div>
   </div>
 
-  <footer class="py-5 bg-primary text-white">
+  <footer class="py-5 bg-success text-white">
     <div class="container">
       <p class="m-0 text-center"><img src="assets/img/profireiniger-full-logo-white.svg"
           alt="Die Profireiniger - Estera GmbH" width="200px"></p>
-      <p class="m-0 text-center">Die Profireiniger - Estera GmbH</p>
+      <p class="m-0 text-center">&copy; Die Profireiniger - Estera GmbH</p>
       <p class="m-0 text-center">Bildmaterial: <a href="https://unsplash.com" class="link-light"
           target="_blank">Unsplash</a></p>
     </div>
