@@ -16,7 +16,7 @@
     <nav class="navbar fixed-top navbar-expand-lg bg-light border-bottom">
         <div class="container-fluid">
             <a class="navbar-brand p-2 mx-5" href="index.html"><img src="assets/img/profireiniger-text-logo.svg"
-                alt="Profireiniger" height="40px"></a>
+                    alt="Profireiniger" height="40px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -56,6 +56,9 @@
                         </ul>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html#pricecalculator">Preisrechner</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="index.html#video">Video</a>
                     </li>
                     <li class="nav-item">
@@ -72,20 +75,20 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col-12 text-center">
-                <img src="assets/img/photos/office-cleaning.jpg" alt="Büroreinigung"
-                    class="img-fluid mt-5 rounded">
-                    <h1 class="mt-4">Büroreinigung</h1>
-                    <h2>Sauberkeit für Wohlgefühl und Produktivität</h2>
+                <img src="assets/img/photos/office-cleaning.jpg" alt="Büroreinigung" class="img-fluid mt-5 rounded">
+                <h1 class="mt-4">Büroreinigung</h1>
+                <h2>Sauberkeit für Wohlgefühl und Produktivität</h2>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row mt-3">
             <div class="col-md-3">
-                <img src="assets/img/photos/office-large-clean-floor.jpg" alt="Büroreinigung"
-                    class="img-fluid rounded">
-                <p class="mt-2 alert alert-secondary p-3 text-center"><em>"Freude an der Arbeit lässt das Werk trefflich geraten."</em><br/>
-                    <strong>- Aristoteles,</strong> Philosoph</p>
+                <img src="assets/img/photos/office-large-clean-floor.jpg" alt="Büroreinigung" class="img-fluid rounded">
+                <p class="mt-2 alert alert-secondary p-3 text-center"><em>"Freude an der Arbeit lässt das Werk trefflich
+                        geraten."</em><br />
+                    <strong>- Aristoteles,</strong> Philosoph
+                </p>
             </div>
             <div class="col-md-5 px-4">
                 <p>Wir Profireiniger haben uns auf den Bereich der Unterhaltsreinigung spezialisiert. Lassen Sie Ihr
@@ -99,6 +102,24 @@
 
                 <p>Wir beraten Sie gerne über die Häufigkeit der Durchführung, um den gewünschten Reinigungsstandard zu
                     erreichen.</p>
+
+                <form class="alert alert-secondary" role="alert">
+                    <h3 class="text-center">Preisrechner Büroreinigung</h3>
+                    <p>Hier können Sie sich eine ungefähre Vorstellung von unserer Preisgestaltung für
+                        <strong>Büroreinigung</strong> machen. Bitte beachten Sie, dass es sich
+                        hier um einen unverbindlichen Preisvorschlag handelt, der einem verbindlichen Preis nur dann
+                        nahekommt, wenn
+                        es keine ungewöhnliche Verunreinigungen gibt oder zu besonderen Komplikationen kommt.
+                    </p>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="qmBuero">Quadratmeter:</span>
+                        <input type="number" class="form-control" id="price-calculator-input-buero" value="10"
+                            aria-describedby="squareMeters">
+                        <button type="button" class="btn btn-outline-secondary"
+                            id="calculation-button-buero">Berechnen</button>
+                    </div>
+                    <div id="resultBuero"></div>
+                </form>
 
                 <img src="assets/img/photos/clean-office.jpg" alt="Büroreinigung" class="img-fluid my-2 rounded">
 
@@ -115,7 +136,8 @@
 
                 <p>Gerne reinigen wir auch Ihre Fenster (hier erfahren Sie <a href="fensterreinigung.html">mehr zur
                         Fensterreinigung)</a>.</p>
-                        <img src="assets/img/photos/cleaning-office-desk.jpg" alt="Büroreinigung" class="img-fluid my-2 rounded">
+                <img src="assets/img/photos/cleaning-office-desk.jpg" alt="Büroreinigung"
+                    class="img-fluid my-2 rounded">
                 <h3>Regelmäßige Unterhaltsreinigung</h3>
 
                 <p>Zu den Reinigungsarbeiten gehören:</p>
@@ -172,11 +194,14 @@
             <p class="m-0 text-center"><img src="assets/img/profireiniger-full-logo-white.svg"
                     alt="Die Profireiniger - Estera GmbH" width="200px"></p>
             <p class="m-0 text-center">&copy; Die Profireiniger - Estera GmbH</p>
-      <p class="m-0 text-center">Bildmaterial: <a href="https://unsplash.com" class="link-light" target="_blank">Unsplash</a></p>
+            <p class="m-0 text-center">Bildmaterial: <a href="https://unsplash.com" class="link-light"
+                    target="_blank">Unsplash</a></p>
         </div>
         <!-- /.container -->
     </footer>
 
+    <script src="assets/js/price-calculator.js"></script>
+    <script src="assets/js/price-calculator-office.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 

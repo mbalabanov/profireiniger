@@ -12,7 +12,7 @@
 
   <style>
     .carousel-caption {
-      background: rgba(0,0,0,0.5);
+      background: rgba(0, 0, 0, 0.5);
       border-radius: 1em;
       padding: 1em;
     }
@@ -64,8 +64,12 @@
             </ul>
           </li>
           <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html#pricecalculator">Preisrechner</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" aria-current="page" href="index.html#video">Video</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="index.html#kontakt">Kontakt</a>
           </li>
@@ -217,13 +221,11 @@
       </div>
     </div>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-      data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-      data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -336,7 +338,8 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <a href="bueroreinigung.html"><img src="assets/img/photos/office-cleaning.jpg" alt="Büroreinigung" class="img-fluid rounded-top"></a>
+            <a href="bueroreinigung.html"><img src="assets/img/photos/office-cleaning.jpg" alt="Büroreinigung"
+                class="img-fluid rounded-top"></a>
             <div class="card-body">
               <h3 class="card-text">Büro&shy;reinigung</h3>
               <p class="card-text">Nur an einem sauberen und gepflegten Arbeitsplatz kann man einen effizienten und
@@ -458,6 +461,44 @@
     </div>
   </div>
 
+  <section class="container-fluid p-5"  id="pricecalculator">
+    <div class="row mt-5">
+      <div class="col-md-10 offset-md-1">
+        <h3 class="text-center">Preisrechner</h3>
+        <p>Hier können Sie sich eine ungefähre Vorstellung von unserer Preisgestaltung für
+          <strong>Wohnungsreinigung</strong> und <strong>Büroreinigung</strong> machen. Bitte beachten Sie, dass es sich
+          hier um einen unverbindlichen Preisvorschlag handelt, der einem verbindlichen Preis nur dann nahekommt, wenn
+          es keine ungewöhnliche Verunreinigungen gibt oder zu besonderen Komplikationen kommt.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <form class="alert alert-primary" role="alert">
+          <h3 class="text-center">Wohnungsreinigung</h3>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="qmWohnung">Quadratmeter:</span>
+            <input type="number" class="form-control" id="price-calculator-input-wohnung" value="10"
+              aria-describedby="squareMeters">
+            <button type="button" class="btn btn-outline-primary" id="calculation-button-wohnung">Berechnen</button>
+          </div>
+          <div id="resultWohnung"></div>
+        </form>
+      </div>
+      <div class="col-md-6 mb-3">
+        <form class="alert alert-success" role="alert">
+          <h3 class="text-center">Büroreinigung</h3>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="qmBuero">Quadratmeter:</span>
+            <input type="number" class="form-control" id="price-calculator-input-buero" value="10"
+              aria-describedby="squareMeters">
+            <button type="button" class="btn btn-outline-success" id="calculation-button-buero">Berechnen</button>
+          </div>
+          <div id="resultBuero"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
   <div class="container-fluid bg-primary text-light p-4 my-4">
     <div class="container">
       <div class="row my-5">
@@ -483,7 +524,7 @@
         <div class="col-md-4 text-center">
           <img src="assets/img/photos/clean-room.jpg" alt="Profireiniger: Schnell - Gründlich - Zuverlässig"
             class="img-fluid mt-5 rounded">
-          <p class="p-3">Ihr Partner für Sauberkeit und Hygiene.<br/>Schnell,
+          <p class="p-3">Ihr Partner für Sauberkeit und Hygiene.<br />Schnell,
             Gründlich, Zuverlässig</p>
           <a href="assets/pdf/profireiniger-flyer.pdf" target="_blank"><img src="assets/img/flyer.jpg"
               alt="Profireiniger Flyer download" class="rounded" width="120px"></a>
@@ -524,13 +565,13 @@
         <p>Wir sind der richtige Ansprechpartner für Ihre Reinigungswünsche.</p>
         <p>Wir kümmern uns gerne um Ihre Anliegen. Egal wie speziell Ihr Leistungswunsch auch sein mag, wir sind
           flexibel und unser Angebot richtet sich nach Ihren individuellen Bedürfnissen. Dabei arbeiten wir zuverlässig,
-          gründlich und preiswert, damit Sie sich voll und ganz auf Ihr Kerngeschäft konzentrieren können. Holen Sie
-          sich ein Angebot, das auf Ihre Bedürfnisse zugeschnitten ist.</p>
-        <p>Unsere Beratung ist unverbindlich und kostenfrei.</p>
+          gründlich und preiswert, damit Sie sich voll und ganz auf Ihr Kerngeschäft konzentrieren können.</p>
       </div>
       <div class="col-md-6 py-4">
         <h2>Schreiben Sie uns</h2>
-
+        <p>Wir erstellen gerne ein Angebot, das auf Ihre Bedürfnisse zugeschnitten ist. Unsere Erstberatung ist
+          unverbindlich und kostenfrei.</p>
+        </p>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Ihre Email-Adresse:</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@adresse.at">
@@ -610,14 +651,19 @@
         <div class="text-center px-4">
           <p>Wir verwenden <strong>Google Maps</strong> für die Angaben zu unserem Bürostandort und
             <strong>Youtube</strong> für unser Video. Dabei kann <strong>Google</strong> Ihre Daten tracken.<br />Wir
-            zeigen die Karte und unser Video nur an, wenn Sie zustimmen.</p>
-          <button type="button" class="btn btn-sm btn-primary mx-1" onclick="acceptCookieNotice()" data-bs-dismiss="alert"
-            aria-label="Close">Zustimmen</button><button type="button" class="btn btn-sm btn-secondary mx-1"
-            onclick="rejectCookieNotice()" data-bs-dismiss="alert" aria-label="Close">Ablehnen</button></p>
+            zeigen die Karte und unser Video nur an, wenn Sie zustimmen.
+          </p>
+          <button type="button" class="btn btn-sm btn-primary mx-1" onclick="acceptCookieNotice()"
+            data-bs-dismiss="alert" aria-label="Close">Zustimmen</button><button type="button"
+            class="btn btn-sm btn-secondary mx-1" onclick="rejectCookieNotice()" data-bs-dismiss="alert"
+            aria-label="Close">Ablehnen</button></p>
         </div>
       </div>
     </div>
   </div>
+  <script src="assets/js/price-calculator.js"></script>
+  <script src="assets/js/price-calculator-flat.js"></script>
+  <script src="assets/js/price-calculator-office.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/cookies.js"></script>
 </body>
