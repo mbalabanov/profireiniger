@@ -9,10 +9,16 @@
     <link rel="canonical" href="https://profireiniger.at">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/customvideo.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-241557130-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-241557130-1');
+    </script>
 </head>
 
 <body id="page-top">
-
     <nav class="navbar fixed-top navbar-expand-lg bg-light border-bottom">
         <div class="container-fluid">
             <a class="navbar-brand p-2 mx-5" href="index.html"><img src="assets/img/profireiniger-text-logo.svg"
@@ -93,14 +99,16 @@
                 <p>Wir von den Profireinigern haben uns auf die Unterhaltsreinigung spezialisiert. Lassen Sie Ihre
                     Wohnung oder Ihr Haus von unserem Fachpersonal regelmäßig reinigen.</p>
 
-                <h3>Apartmentreinigung für Ihre AirBnB-, Kurzzeitwohnen-, oder Booking-Wohnung</h3>
+                <h3>Apartmentreinigung für Ihre AirBnB-, Kurzzeitmiete-, oder Booking-Wohnung</h3>
                 <p>Wir sind Ihr zuverlässiges Reinigungsunternehmen. Wir setzen besonderes Augenmerk auf
                     die Reingigung von Apartments, die über <strong><a href="http://airbnb.at"
                             target="_blank">AirBnB</a></strong>, <strong><a href="http://booking.com"
-                            target="_blank">Booking</a></strong> oder <strong><a href="http://kurzzeitwohnen.com/"
+                            target="_blank">Booking</a></strong>, <strong><a href="http://kurzzeitmiete.at"
+                            target="_blank">Kurzzeitmiete</a></strong> oder <strong><a href="http://kurzzeitwohnen.com/"
                             target="_blank">Kurzzeitwohnen</a></strong> vermietet werden.</p>
 
-                <p>Unsere gründliche Endreinigung eines Apartments nach dem Checkout beinhaltet folgende Dienstleistungen
+                <p>Unsere gründliche Endreinigung eines Apartments nach dem Checkout beinhaltet folgende
+                    Dienstleistungen
                     (Reinigungsmaterial
                     wird von uns
                     mitgebracht):</p>
@@ -124,7 +132,8 @@
                     <strong>frische Bettwäsche, Handtücher und sonstige Accessoires von uns</strong> bereit.
                 </p>
 
-                <p>Melden Sie sich bei uns unter <a href="mailto:sales@profireiniger.at">sales@profireiniger.at</a>, und wir
+                <p>Melden Sie sich bei uns unter <a href="mailto:sales@profireiniger.at">sales@profireiniger.at</a>, und
+                    wir
                     werden uns Ihrer Wünsche annehmen. Es gibt immer eine Lösung für Ihre
                     Bedürfnisse. Dafür sorgt das Profireiniger-Team schnell und unkompliziert.</p>
 
@@ -223,7 +232,24 @@
         </div>
         <!-- /.container -->
     </footer>
-
+    <div id="cookieArea">
+        <div id="dsgvo-warnung">
+            <div class="fixed-bottom alert alert-info mx-5 p-3 alert-dismissible" role="alert">
+                <div class="text-center px-4">
+                    <p>Wir verwenden <strong>Google Maps</strong> für das Besuchertracking, den Angaben zu unserem
+                        Bürostandort und
+                        <strong>Youtube</strong> für unser Video. Dabei kann <strong>Google</strong> Ihre Daten
+                        tracken.<br />Wir
+                        verwenden Google Analytics, zeigen die Karte und unser Video nur an, wenn Sie zustimmen.
+                    </p>
+                    <p><button type="button" class="btn btn-sm btn-primary mx-1" onclick="acceptCookieNotice()"
+                            data-bs-dismiss="alert" aria-label="Close">Zustimmen</button><button type="button"
+                            class="btn btn-sm btn-secondary mx-1" onclick="rejectCookieNotice()" data-bs-dismiss="alert"
+                            aria-label="Close">Ablehnen</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="assets/js/price-calculator.js"></script>
     <script src="assets/js/price-calculator-flat.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>

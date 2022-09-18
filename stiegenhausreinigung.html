@@ -9,10 +9,16 @@
     <link rel="canonical" href="https://profireiniger.at">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/customvideo.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-241557130-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-241557130-1');
+    </script>
 </head>
 
 <body id="page-top">
-
     <nav class="navbar fixed-top navbar-expand-lg bg-light border-bottom">
         <div class="container-fluid">
             <a class="navbar-brand p-2 mx-5" href="index.html"><img src="assets/img/profireiniger-text-logo.svg"
@@ -148,11 +154,28 @@
             <p class="m-0 text-center"><img src="assets/img/profireiniger-full-logo-white.svg"
                     alt="Die Profireiniger - Estera GmbH" width="200px"></p>
             <p class="m-0 text-center">&copy; Die Profireiniger - Estera GmbH</p>
-            
+
         </div>
         <!-- /.container -->
     </footer>
-
+    <div id="cookieArea">
+        <div id="dsgvo-warnung">
+            <div class="fixed-bottom alert alert-info mx-5 p-3 alert-dismissible" role="alert">
+                <div class="text-center px-4">
+                    <p>Wir verwenden <strong>Google Maps</strong> für das Besuchertracking, den Angaben zu unserem
+                        Bürostandort und
+                        <strong>Youtube</strong> für unser Video. Dabei kann <strong>Google</strong> Ihre Daten
+                        tracken.<br />Wir
+                        verwenden Google Analytics, zeigen die Karte und unser Video nur an, wenn Sie zustimmen.
+                    </p>
+                    <p><button type="button" class="btn btn-sm btn-primary mx-1" onclick="acceptCookieNotice()"
+                            data-bs-dismiss="alert" aria-label="Close">Zustimmen</button><button type="button"
+                            class="btn btn-sm btn-secondary mx-1" onclick="rejectCookieNotice()" data-bs-dismiss="alert"
+                            aria-label="Close">Ablehnen</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 

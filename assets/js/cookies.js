@@ -39,12 +39,9 @@ function checkCookie() {
     let accepted = getCookie("profireinigerConfirmation");
     if (accepted === "userAcceptedProfireinigerCookies") {
         showMapAndVideo();
-        hideCookieNotice();
+        cookieArea.innerHTML = '';
+        gaArea.innerHTML = gaCode;
     }
-}
-
-function hideCookieNotice() {
-    cookieArea.innerHTML = ``;
 }
 
 function showMapAndVideo() {
@@ -53,10 +50,9 @@ function showMapAndVideo() {
 }
 
 function acceptCookieNotice() {
-    console.log("Cookies accepted");
     setCookie("profireinigerConfirmation", "userAcceptedProfireinigerCookies", 30);
     showMapAndVideo();
-    hideCookieNotice();
+    cookieArea.innerHTML = '';
 }
 
 function rejectCookieNotice() {
