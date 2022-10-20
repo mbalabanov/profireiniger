@@ -23,7 +23,7 @@ if (!preg_match(
 if (empty($errors)) {
 	$to = $myemail;
 	$email_subject = "Kontaktformular geschickt von: $name";
-	$email_body = "Sie haben eine neue Nachricht von Ihrer Website. " .
+	$email_body = "Sie haben eine neue Nachricht von Ihrer Website Profireiniger.at. " .
 		" Hier sind die Details:\n Name: $name \n Email: $email_address \n Nachricht \n $message";
 
 	$headers = "From: $myemail\n";

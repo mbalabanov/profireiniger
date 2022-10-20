@@ -18,6 +18,12 @@
     </style>
 
     <script
+      language="JavaScript"
+      src="assets/js/contact/gen_validatorv31.js"
+      type="text/javascript"
+    ></script>
+
+    <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-241557130-1"
     ></script>
@@ -429,15 +435,13 @@
             Zuverlässig
           </p>
           <p>
-            <a
-              href="mailto:office@profireiniger.at"
-              class="btn btn-primary my-2"
-              >Angebot per Email an<br />office@profireiniger.at anfordern</a
+            <a href="kontakt.html" class="btn btn-success my-2"
+              >Zu unserem<br />Kontaktformular</a
             >
             &nbsp;
             <a href="tel:+436766727472" class="btn btn-primary my-2"
-              >Rufen Sie uns unter<br />+43 676 672 74 72 an</a
-            >
+              >Rufen Sie uns an unter<br />676 672 74 72
+            </a>
           </p>
         </div>
       </div>
@@ -699,31 +703,6 @@
               </div>
             </div>
           </div>
-
-          <div class="col">
-            <div class="card shadow-sm">
-              <a href="winterdienst.html"
-                ><img
-                  src="assets/img/photos/slider/winterdienst.jpg"
-                  alt="Winterdienst"
-                  class="img-fluid rounded-top"
-              /></a>
-              <div class="card-body">
-                <h3 class="cart-text">Winter&shy;dienst</h3>
-                <p class="card-text">
-                  Wir räumen zuverlässig Schnee und Eis. Wir lassen Sie auch in
-                  diesem Winter nicht im Stich.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a class="btn btn-sm btn-primary" href="winterdienst.html"
-                      >Mehr</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -887,26 +866,61 @@
         <div class="col-md-6 py-4">
           <h2>Kontakt</h2>
           <p>
-            Wir sind der richtige Ansprechpartner für Ihre Reinigungswünsche.
+            <strong>Profireiniger Estera GmbH</strong> ist der richtige
+            Ansprechpartner für Ihre Reinigungswünsche. Wir erstellen gerne ein
+            Angebot, das auf Ihre Bedürfnisse zugeschnitten ist. Unsere
+            Erstberatung ist unverbindlich und kostenfrei.
           </p>
-          <p>
-            Wir kümmern uns gerne um Ihre Anliegen. Egal wie speziell Ihr
-            Leistungswunsch auch sein mag, wir sind flexibel und unser Angebot
-            richtet sich nach Ihren individuellen Bedürfnissen. Dabei arbeiten
-            wir zuverlässig, gründlich und preiswert, damit Sie sich voll und
-            ganz auf Ihr Kerngeschäft konzentrieren können.
-          </p>
-          <a href="kontakt.html" class="btn btn-primary btn-lg"
-            >Zum Kontaktformular</a
+          <form
+            method="POST"
+            name="contactform"
+            action="contact-form-handler.php"
+            class="mb-5"
           >
+            <div class="mb-3">
+              <label for="name" class="form-label">Ihr Name:</label> <br />
+              <input type="text" name="name" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Ihre Email-Adresse:</label>
+              <br />
+              <input type="text" name="email" class="form-control" /> <br />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Nachricht:</label> <br />
+              <textarea name="message" class="form-control"></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Nachricht senden"
+              class="btn btn-primary btn-lg"
+            /><br />
+          </form>
+
+          <script language="JavaScript">
+            // Code for validating the form
+            // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+            // for details
+            var frmvalidator = new Validator("contactform");
+            frmvalidator.addValidation(
+              "name",
+              "req",
+              "Bitte geben Sie Ihren Namen ein."
+            );
+            frmvalidator.addValidation(
+              "email",
+              "req",
+              "Bitte geben Sie Ihre Email-Adresse ein."
+            );
+            frmvalidator.addValidation(
+              "email",
+              "email",
+              "Bitte geben Sie eine gültige Email-Adresse ein."
+            );
+          </script>
         </div>
         <div class="col-md-6 py-4">
           <h2>Schreiben Sie uns</h2>
-          <p>
-            Wir erstellen gerne ein Angebot, das auf Ihre Bedürfnisse
-            zugeschnitten ist. Unsere Erstberatung ist unverbindlich und
-            kostenfrei.
-          </p>
           <div class="alert alert-secondary text-center" role="alert">
             <p>
               <img
@@ -929,6 +943,13 @@
               <strong>Büroadresse:</strong> Frankgasse 6/2a, 1090 Wien<br />
             </p>
           </div>
+          <p>
+            Wir kümmern uns gerne um Ihre Anliegen. Egal wie speziell Ihr
+            Leistungswunsch auch sein mag, wir sind flexibel und unser Angebot
+            richtet sich nach Ihren individuellen Bedürfnissen. Dabei arbeiten
+            wir zuverlässig, gründlich und preiswert, damit Sie sich voll und
+            ganz auf Ihr Kerngeschäft konzentrieren können.
+          </p>
         </div>
       </div>
     </div>
