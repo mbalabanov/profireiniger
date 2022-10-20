@@ -1,697 +1,984 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Profireiniger" />
+    <title>Profireiniger Estera GmbH</title>
+    <link rel="canonical" href="https://profireiniger.at" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/customvideo.css" rel="stylesheet" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Profireiniger">
-  <title>Profireiniger Estera GmbH</title>
-  <link rel="canonical" href="https://profireiniger.at">
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/css/customvideo.css" rel="stylesheet">
+    <style>
+      .carousel-caption {
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 1em;
+        padding: 1em;
+      }
+    </style>
 
-  <style>
-    .carousel-caption {
-      background: rgba(0, 0, 0, 0.5);
-      border-radius: 1em;
-      padding: 1em;
-    }
-  </style>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-241557130-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-241557130-1");
+    </script>
+  </head>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-241557130-1"></script>
-  <script>window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-241557130-1');
-  </script>
-</head>
+  <body id="page-top">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand p-2 mx-5" href="index.html"
+          ><img
+            src="assets/img/profireiniger-text-logo.svg"
+            alt="Profireiniger"
+            height="40px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dienstleistungen
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="index.html#services"
+                    >Alle Dienstleistungen</a
+                  >
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="wohnungsreinigung.html"
+                    >Apartmentreinigung</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="bauendreinigung.html"
+                    >Bauendreinigung</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="bueroreinigung.html"
+                    >Büroreinigung</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="fensterreinigung.html"
+                    >Fensterreinigung</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="gastronomiereinigung.html"
+                    >Gastronomiereinigung</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="grundreinigung.html"
+                    >Grundreinigung</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hausbetreuung.html"
+                    >Hausbetreuung</a
+                  >
+                  <p>
+                    <a class="dropdown-item" href="hausbetreuung.html#hausbetreuung"><sup>&raquo; Allgemeine Betreuung</sup><br/>
+                    <a class="dropdown-item" href="hausbetreuung.html#technische-kontrolle"><sup>&raquo; Technische Kontrolle</sup><br/>
+                    <a class="dropdown-item" href="hausbetreuung.html#stiegenhausreinigung"><sup>&raquo; Stiegenhausreinigung</sup><br/>
+                    <a class="dropdown-item" href="hausbetreuung.html#winterdienst"><sup>&raquo; Winterdienst</sup></a>
+                  </p>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hotelreinigung.html"
+                    >Hotelreinigung</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ordinationsreinigung.html"
+                    >Ordinationsreinigung</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="winterdienst.html"
+                    >Winterdienst</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="wohnungsreinigung.html"
+                    >Wohnungsreinigung</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="index.html#pricecalculator"
+                >Preisrechner</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html#video"
+                >Video</a
+              >
+            </li>
 
-<body id="page-top">
-  <nav class="navbar fixed-top navbar-expand-lg bg-light border-bottom">
-    <div class="container-fluid">
-      <a class="navbar-brand p-2 mx-5" href="index.html"><img src="assets/img/profireiniger-text-logo.svg"
-          alt="Profireiniger" height="40px"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Dienstleistungen
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="index.html#services">Alle Dienstleistungen</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="unterhaltsreinigung.html">Apartmentreinigung</a></li>
-              <li><a class="dropdown-item" href="aussenreinigung.html">Außenreinigung</a></li>
-              <li><a class="dropdown-item" href="bauendreinigung.html">Bauendreinigung</a></li>
-              <li><a class="dropdown-item" href="bueroreinigung.html">Büroreinigung</a></li>
-              <li><a class="dropdown-item" href="fensterreinigung.html">Fensterreinigung</a></li>
-              <li><a class="dropdown-item" href="gastronomiereinigung.html">Gastronomiereinigung</a></li>
-              <li><a class="dropdown-item" href="grundreinigung.html">Grundreinigung</a></li>
-              <li><a class="dropdown-item" href="hausbetreuung.html">Hausbetreuung</a></li>
-              <li><a class="dropdown-item" href="hotelreinigung.html">Hotelreinigung</a></li>
-              <li><a class="dropdown-item" href="ordinationsreinigung.html">Ordinationsreinigung</a></li>
-              <li><a class="dropdown-item" href="stiegenhausreinigung.html">Stiegenhausreinigung</a></li>
-              <li><a class="dropdown-item" href="unterhaltsreinigung.html">Unterhaltsreinigung</a></li>
-              <li><a class="dropdown-item" href="winterdienst.html">Winterdienst</a></li>
-              <li><a class="dropdown-item" href="unterhaltsreinigung.html">Wohnungsreinigung</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html#pricecalculator">Preisrechner</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html#video">Video</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html#kontakt">Kontakt</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html#impressum">Impressum</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="agb.html">AGB</a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html#kontakt"
+                >Kontakt</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="index.html#impressum"
+                >Impressum</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="agb.html">AGB</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <section class="container mt-5 pt-5">
-    <div id="ProfireinigerCarousel" class="carousel slide" data-bs-ride="carousel">
-
+    <div
+      id="ProfireinigerCarousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide-to="3"
-          aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide-to="4"
-          aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide-to="5"
-          aria-label="Slide 6"></button>
-        <button type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide-to="6"
-          aria-label="Slide 7"></button>
-        <button type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide-to="7"
-          aria-label="Slide 8"></button>
-        <button type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide-to="8"
-          aria-label="Slide 9"></button>
+        <button
+          type="button"
+          data-bs-target="#ProfireinigerCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ProfireinigerCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ProfireinigerCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ProfireinigerCarousel"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ProfireinigerCarousel"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ProfireinigerCarousel"
+          data-bs-slide-to="5"
+          aria-label="Slide 6"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ProfireinigerCarousel"
+          data-bs-slide-to="6"
+          aria-label="Slide 7"
+        ></button>
       </div>
 
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="5000">
-          <a href="unterhaltsreinigung.html"><img src="assets/img/photos/carousel/cleaning-counter.jpg"
-              class="d-block w-100" alt="Apartmentreinigung"></a>
+          <a href="wohnungsreinigung.html"
+            ><img
+              src="assets/img/photos/carousel/cleaning-counter.jpg"
+              class="d-block w-100"
+              alt="Apartmentreinigung"
+          /></a>
           <div class="carousel-caption d-none d-md-block">
             <h5 class="slider-text">Apartmentreinigung</h5>
-            <p class="slider-text"> Apartmentreinigung für Ihre AirBnB-, Kurzzeitmiete-, oder Booking-Wohnung. Regelmäßig aufgeräumt, makellos geputzt. Wir von den Profireinigern haben uns auf die
-              Unterhaltsreinigung spezialisiert. Lassen Sie Ihre Wohnung oder Ihr Haus von unserem Fachpersonal
-              regelmäßig reinigen.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="unterhaltsreinigung.html"><img src="assets/img/photos/carousel/office-cleaning.jpg"
-              class="d-block w-100" alt="Unterhaltsreinigung"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Unterhaltsreinigung im Büro</h5>
-            <p class="slider-text">Lassen Sie Ihre Büroräumlichkeiten, Ihre Kanzlei oder Ihren Meetingraum von unserem
-              Fachpersonal regelmäßig reinigen.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="aussenreinigung.html"><img src="assets/img/photos/carousel/facade.jpg" class="d-block w-100 rounded"
-              alt="Außenreinigung"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Außenreinigung</h5>
-            <p class="slider-text">Wir sorgen dafür, dass Ihr Gebäude auch von außen einen blendenden Eindruck macht.
+            <p class="slider-text">
+              Apartmentreinigung für Ihre AirBnB-, Kurzzeitmiete-, oder
+              Booking-Wohnung. Regelmäßig aufgeräumt, makellos geputzt. Wir von
+              den Profireinigern haben uns auf die Unterhaltsreinigung
+              spezialisiert. Lassen Sie Ihre Wohnung oder Ihr Haus von unserem
+              Fachpersonal regelmäßig reinigen.
             </p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <a href="gastronomiereinigung.html"><img src="assets/img/photos/carousel/restaurant.jpg"
-              class="d-block w-100" alt="Gastronomiereinigung"></a>
+          <a href="wohnungsreinigung.html"
+            ><img
+              src="assets/img/photos/carousel/office-cleaning.jpg"
+              class="d-block w-100"
+              alt="Unterhaltsreinigung"
+          /></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="slider-text">Büroreinigung</h5>
+            <p class="slider-text">
+              Lassen Sie Ihre Büroräumlichkeiten, Ihre Kanzlei oder Ihren
+              Meetingraum von unserem Fachpersonal regelmäßig reinigen.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <a href="gastronomiereinigung.html"
+            ><img
+              src="assets/img/photos/carousel/restaurant.jpg"
+              class="d-block w-100"
+              alt="Gastronomiereinigung"
+          /></a>
           <div class="carousel-caption d-none d-md-block">
             <h5 class="slider-text">Gastronomiereinigung</h5>
-            <p class="slider-text">Sauberkeit im Restaurant, in der Bar und in der Küche für das Wohl Ihrer Gäste</p>
+            <p class="slider-text">
+              Sauberkeit im Restaurant, in der Bar und in der Küche für das Wohl
+              Ihrer Gäste
+            </p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <a href="fensterreinigung.html"><img src="assets/img/photos/carousel/cleaning-windows.jpg"
-              class="d-block w-100" alt="Fensterreinigung"></a>
+          <a href="fensterreinigung.html"
+            ><img
+              src="assets/img/photos/carousel/cleaning-windows.jpg"
+              class="d-block w-100"
+              alt="Fensterreinigung"
+          /></a>
           <div class="carousel-caption d-none d-md-block">
             <h5 class="slider-text">Fensterreinigung</h5>
-            <p class="slider-text">Wir reinigen ihre Fenster mit und ohne Rahmenreinigung und bringen auch alle anderen
-              Glasoberflächen zum glänzen mit Sorgfalt und Behutsamkeit.</p>
+            <p class="slider-text">
+              Wir reinigen ihre Fenster mit und ohne Rahmenreinigung und bringen
+              auch alle anderen Glasoberflächen zum glänzen mit Sorgfalt und
+              Behutsamkeit.
+            </p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <a href="grundreinigung.html"><img src="assets/img/photos/carousel/grundreinigung.jpg"
-              class="d-block w-100" alt="Grundreinigung"></a>
+          <a href="grundreinigung.html"
+            ><img
+              src="assets/img/photos/carousel/grundreinigung.jpg"
+              class="d-block w-100"
+              alt="Grundreinigung"
+          /></a>
           <div class="carousel-caption d-none d-md-block">
             <h5 class="slider-text">Grundreinigung</h5>
-            <p class="slider-text">Wenn Sie sich für die Grundreinigung Ihres Büros oder Wohnung interessieren, dann
-              sind wir Ihr
-              leistungsstarker Partner.</p>
+            <p class="slider-text">
+              Wenn Sie sich für die Grundreinigung Ihres Büros oder Wohnung
+              interessieren, dann sind wir Ihr leistungsstarker Partner.
+            </p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <a href="hotelreinigung.html"><img src="assets/img/photos/carousel/hotel-room.jpg"
-              class="d-block w-100" alt="Hotelreinigung"></a>
+          <a href="hotelreinigung.html"
+            ><img
+              src="assets/img/photos/carousel/hotel-room.jpg"
+              class="d-block w-100"
+              alt="Hotelreinigung"
+          /></a>
           <div class="carousel-caption d-none d-md-block">
             <h5 class="slider-text">Hotelreinigung</h5>
-            <p class="slider-text">Damit der erste Eindruck stimmt: Wir Profireiniger rücken für Sie jeden Winkel Ihres
-              Hotels in ein
-              perfektes Licht.</p>
+            <p class="slider-text">
+              Damit der erste Eindruck stimmt: Wir Profireiniger rücken für Sie
+              jeden Winkel Ihres Hotels in ein perfektes Licht.
+            </p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <a href="stiegenhausreinigung.html"><img src="assets/img/photos/carousel/stairs.jpg"
-              class="d-block w-100" alt="Stiegenhausreinigung"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="slider-text">Stiegenhausreinigung</h5>
-            <p class="slider-text">Wo viele Menschen arbeiten oder als Besucher hin kommen, müssen Eingangsbereiche und
-              Treppenhäuser schon
-              allein durch die Nutzungsfrequenzen extremen Belastungen standhalten.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="winterdienst.html"><img src="assets/img/photos/carousel/winterdienst.jpg"
-              class="d-block w-100" alt="Winterdienst"></a>
+          <a href="winterdienst.html"
+            ><img
+              src="assets/img/photos/carousel/winterdienst.jpg"
+              class="d-block w-100"
+              alt="Winterdienst"
+          /></a>
           <div class="carousel-caption d-none d-md-block">
             <h5 class="slider-text">Winterdienst</h5>
-            <p class="slider-text">Wir lassen Sie auch in diesem Winter nicht im Stich und räumen zuverlässig Schnee und
-              Eis.</p>
+            <p class="slider-text">
+              Wir lassen Sie auch in diesem Winter nicht im Stich und räumen
+              zuverlässig Schnee und Eis.
+            </p>
           </div>
         </div>
       </div>
 
-      <button class="carousel-control-prev" type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide="prev">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#ProfireinigerCarousel"
+        data-bs-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide="next">
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#ProfireinigerCarousel"
+        data-bs-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </section>
-  <section class="text-center container">
-    <div class="row">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-bold text-primary">Willkommen bei den Profireinigern!</h1>
-        <p class="lead text-muted">Ihr Partner für Sauberkeit und Hygiene.<br />Schnell - Gründlich - Zuverlässig</p>
-        <p>
-          <a href="#kontakt" class="btn btn-primary my-2">Angebot anfordern</a>
-        </p>
+    <section class="text-center container">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-bold text-primary">
+            Willkommen bei<br />Profireiniger Estera GmbH
+          </h1>
+          <p class="lead text-muted">
+            Ihr Partner für Sauberkeit und Hygiene.<br />Schnell - Gründlich -
+            Zuverlässig
+          </p>
+          <p>
+            <a href="#kontakt" class="btn btn-primary my-2"
+              >Angebot anfordern</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-2" id="services">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-12 text-center mt-5">
+            <h2>Unsere Dienstleistungen</h2>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="grundreinigung.html"
+                ><img
+                  src="assets/img/photos/cleaning-counter.jpg"
+                  alt="Grundreinigung"
+                  class="img-fluid rounded-top"
+              /></a>
+              <div class="card-body">
+                <h3 class="cart-text">Apartment&shy;reinigung</h3>
+                <p class="card-text">
+                  Apartmentreinigung für Ihre AirBnB-, Kurzzeitmiete-, oder
+                  Booking-Wohnung. Lassen Sie Ihre Wohnung oder Ihr Haus von
+                  unserem Fachpersonal regelmäßig reinigen.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      class="btn btn-sm btn-primary"
+                      href="wohnungsreinigung.html"
+                      >Mehr</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="bueroreinigung.html"
+                ><img
+                  src="assets/img/photos/office-cleaning.jpg"
+                  alt="Büroreinigung"
+                  class="img-fluid rounded-top"
+              /></a>
+              <div class="card-body">
+                <h3 class="card-text">Büro&shy;reinigung</h3>
+                <p class="card-text">
+                  Nur an einem sauberen und gepflegten Arbeitsplatz kann man
+                  einen effizienten und angenehmen Arbeitstag verleben. Wir
+                  reinigen alle Arten von Büroräumen - von mittelgroßen Firmen
+                  bis hin zu den Büroetagen großer Unternehmen, sowie Büros von
+                  Verwaltungen und Schulen.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-primary" href="bueroreinigung.html"
+                      >Mehr</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="bauendreinigung.html"
+                ><img
+                  src="assets/img/photos/construction-site.jpg"
+                  alt="Bauendreinigung"
+                  class="img-fluid rounded-top"
+              /></a>
+              <div class="card-body">
+                <h3 class="card-text">Bauend&shy;reinigung</h3>
+                <p class="card-text">
+                  Als flexibler Dienstleister sind wir in der Lage schnell für
+                  Ordnung auf dem Baufeld zu sorgen. Zu unserem Service gehören
+                  weiterhin die Baufeinreinigung, Baugrobreinigung, das Schützen
+                  von Einbauteilen bis hin zum herstellen der Bausicherheit.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      class="btn btn-sm btn-primary"
+                      href="bauendreinigung.html"
+                      >Mehr</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="fensterreinigung.html"
+                ><img
+                  src="assets/img/photos/cleaning-windows.jpg"
+                  alt="Fensterreinigung"
+                  class="img-fluid rounded-top"
+              /></a>
+              <div class="card-body">
+                <h3 class="card-text">Fenster&shy;reinigung</h3>
+                <p class="card-text">
+                  Wir reinigen ihre Fenster mit und ohne Rahmenreinigung und
+                  bringen auch alle anderen Glasoberflächen zum glänzen miut
+                  Sorgfalt und Behutsamkeit.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      class="btn btn-sm btn-primary"
+                      href="fensterreinigung.html"
+                      >Mehr</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="gastronomiereinigung.html"
+                ><img
+                  src="assets/img/photos/slider/restaurant.jpg"
+                  alt="Gastronomiereinigung"
+                  class="img-fluid rounded-top"
+              /></a>
+              <div class="card-body">
+                <h3 class="card-text">Gastro&shy;nomie&shy;reinigung</h3>
+                <p class="card-text">
+                  Als Gastronom sorgen Sie sich nicht nur um das Wohl Ihrer
+                  Gäste sondern achten auch auf die Hygiene in Ihrem Betrieb.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      class="btn btn-sm btn-primary"
+                      href="gastronomiereinigung.html"
+                      >Mehr</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="wohnungsreinigung.html"
+                ><img
+                  src="assets/img/photos/grundreinigung.jpg"
+                  alt="Unterhaltsreinigung"
+                  class="img-fluid rounded-top"
+              /></a>
+              <div class="card-body">
+                <h3 class="cart-text">Grund&shy;reinigung</h3>
+                <p class="card-text">
+                  Unter der Grundreinigung versteht man das gründliche reinigen.
+                  Wenn Sie sich für die Grundreinigung Ihres Büros oder Wohnung
+                  interessieren, dann sind wir Ihr leistungsstarker Partner.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-primary" href="grundreinigung.html"
+                      >Mehr</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="hausbetreuung.html"
+                ><img
+                  src="assets/img/photos/slider/hausbetreuung.jpg"
+                  alt="Hausbetreuung"
+                  class="img-fluid rounded-top"
+              /></a>
+              <div class="card-body">
+                <h3 class="card-text">Haus&shy;betreuung</h3>
+                <p class="card-text">
+                  Wir betreuen Ihre Liegenschaft oder Ihr Wohnhaus zuverlässig
+                  und professionell. So können Sie sich sorgenfrei, wohl und
+                  sicher fühlen.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-primary" href="hausbetreuung.html"
+                      >Mehr</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="hotelreinigung.html"
+                ><img
+                  src="assets/img/photos/hotel-room.jpg"
+                  alt="Hotelreinigung"
+                  class="img-fluid rounded-top"
+              /></a>
+              <div class="card-body">
+                <h3 class="card-text">Hotel&shy;reinigung</h3>
+                <p class="card-text">
+                  Damit der erste Eindruck stimmt: Wir Profireiniger rücken für
+                  Sie jeden Winkel Ihres Hotels in ein perfektes Licht.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-primary" href="hotelreinigung.html"
+                      >Mehr</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="ordinationsreinigung.html"
+                ><img
+                  src="assets/img/photos/slider/doctors-office.jpg"
+                  alt="Ordinationsreinigung"
+                  class="img-fluid rounded-top"
+              /></a>
+              <div class="card-body">
+                <h3 class="cart-text">Ordi&shy;nations&shy;reinigung</h3>
+                <p class="card-text">
+                  In Ihrer Ordination reicht Sauberkeit alleine nicht aus, Sie
+                  wollen gründliche Hygiene und zuverlässige Desinfektion.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      class="btn btn-sm btn-primary"
+                      href="ordinationsreinigung.html"
+                      >Mehr</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="winterdienst.html"
+                ><img
+                  src="assets/img/photos/slider/winterdienst.jpg"
+                  alt="Winterdienst"
+                  class="img-fluid rounded-top"
+              /></a>
+              <div class="card-body">
+                <h3 class="cart-text">Winter&shy;dienst</h3>
+                <p class="card-text">
+                  Wir räumen zuverlässig Schnee und Eis. Wir lassen Sie auch in
+                  diesem Winter nicht im Stich.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-primary" href="winterdienst.html"
+                      >Mehr</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
 
-  <div class="album py-2" id="services">
-    <div class="container">
+    <div class="container-fluid bg-primary text-light p-4 my-4">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-md-6 offset-md-1 p-4">
+            <h3>
+              Profireiniger: Apartmentreinigung für Ihre AirBnB-,
+              Kurzzeitmiete-, oder Booking-Wohnung
+            </h3>
+
+            <p>
+              Sie suchen ein zuverlässiges Reinigungsunternehmen für Ihre
+              <strong>Apartmentreinigung?</strong> Wir sind spezialisiert auf
+              die Reingigung von Apartments, die über
+              <strong
+                ><a href="http://airbnb.at" target="_blank" class="link-light"
+                  >AirBnB</a
+                ></strong
+              >,
+              <strong
+                ><a href="http://booking.com" target="_blank" class="link-light"
+                  >Booking</a
+                ></strong
+              >,
+              <strong
+                ><a
+                  href="http://kurzzeitmiete.at"
+                  target="_blank"
+                  class="link-light"
+                  >Kurzzeitmiete</a
+                ></strong
+              >
+              oder
+              <strong
+                ><a
+                  href="http://kurzzeitwohnen.com/"
+                  target="_blank"
+                  class="link-light"
+                  >Kurzzeitwohnen</a
+                ></strong
+              >
+              vermietet werden. Bei den <strong>Profireinigern</strong> haben
+              Sie jetzt den richtigen Partner gefunden. Wir bringen Glanz und
+              Reinheit in den Alltag Ihrer Gäste!
+            </p>
+
+            <p>
+              Ihr professionelles und zuverlässiges Reinigungsunternehmen in
+              Wien. Mit unserem erstklassig geschulten Personal und modernster
+              Ausrüstung bedienen wir alle Bereiche der Gebäudereinigung und
+              wickeln Aufträge jeder Größenordnung ab.
+            </p>
+
+            <p class="alert alert-primary">
+              <strong>Bettwäsche-Service:</strong> Wir stellen gerne bei Bedarf
+              auch
+              <strong
+                >frische Bettwäsche, Handtücher und sonstige Accessoires von
+                uns</strong
+              >
+              bereit.
+            </p>
+
+            <p>
+              Melden Sie sich bei uns unter
+              <a href="mailto:sales@profireiniger.at" class="link-light"
+                >sales@profireiniger.at</a
+              >, und wir werden uns Ihrer Wünsche annehmen. Es gibt immer eine
+              Lösung für Ihre Bedürfnisse. Dafür sorgt das Profireiniger-Team
+              schnell und unkompliziert.
+            </p>
+            <p>
+              <a href="wohnungsreinigung.html" class="btn btn-outline-light"
+                >Nähere Details</a
+              >
+            </p>
+          </div>
+
+          <div class="col-md-4 p-4">
+            <h3>Reinigung von Apartments und Kurzzeitwohnungen</h3>
+            <p>
+              Unsere gründliche Endreinigung eines Apartments nach dem Checkout
+              beinhaltet folgende Dienstleistungen (Reinigungsmaterial wird von
+              uns mitgebracht):
+            </p>
+            <ul>
+              <li>Mobiliaroberflächen reinigen/wischen</li>
+              <li>
+                Komplettreinigung der Küche (inkl. Kühlschrank, Stauflächen und
+                Herd)
+              </li>
+              <li>Geschirrspülmittel/tabs nachfüllen/ersetzen</li>
+              <li>
+                Geschirr, Besteck und sonstige Küchengeräte waschen/reinigen und
+                auf Vollzähligkeit überprüfen
+              </li>
+              <li>
+                Komplettreinigung der Sanitäranlagen (Dusche/Badewanne,
+                sämtliche Keramik, Spiegel, Armaturen, inklusive entkalken)
+              </li>
+              <li>Fließen reinigen (Badboden- und -wandfliesen)</li>
+              <li>
+                WC-Papier und Seife nachfüllen/ersetzen (Material wird von Ihnen
+                bereitgestellt)
+              </li>
+              <li>Fußböden saugen/wischen</li>
+              <li>
+                Müll entsorgen (inkl. von Ihnen bereitgestellte Müllsäcke
+                einsetzen)
+              </li>
+              <li>
+                Wechseln der Bettwäsche für max. vier Personen (frische
+                Bettwäsche wird von Ihnen bereitgestellt)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-2" id="video">
       <div class="row mt-5">
-        <div class="col-12 text-center mt-5">
-          <h2>Unsere Dienstleistungen</h2>
-        </div>
-      </div>
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="grundreinigung.html"><img src="assets/img/photos/cleaning-counter.jpg" alt="Grundreinigung"
-                class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="cart-text">Apartment&shy;reinigung</h3>
-              <p class="card-text"> Apartmentreinigung für Ihre AirBnB-, Kurzzeitmiete-, oder Booking-Wohnung. Lassen Sie Ihre Wohnung oder Ihr Haus von unserem Fachpersonal
-                regelmäßig reinigen.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="unterhaltsreinigung.html">Mehr</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="aussenreinigung.html"><img src="assets/img/photos/facade.jpg" alt="Außenreinigung"
-                class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="card-text">Außen&shy;reinigung</h3>
-              <p class="card-text">Wir sorgen dafür, dass Ihr Gebäude auch von außen einen blendenden Eindruck macht!
-                Wir reinigen Ihre Fassade, und Außenanlagen wie Parkplätze, Gehwege und Hofflächen.
+        <div class="col-md-12 text-center mt-5">
+          <h3>Videovorstellung</h3>
+          <div id="videoReplacement">
+            <div class="alert alert-warning" role="alert">
+              <p>
+                Wir zeigen unser Youtube Video nicht an, weil Sie den
+                Cookie-Bestimmungen nicht zugestimmt haben.
               </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="aussenreinigung.html">Mehr</a>
-                </div>
-              </div>
+              <p>
+                Sie können das
+                <a href="https://youtu.be/b_xoEakVeh0" target="_blank"
+                  >Video direkt auf Youtube ansehen</a
+                >
+                oder den
+                <a href="#video" id="videoAccept"
+                  >Cookie-Bestimmungen zustimmen.</a
+                >
+              </p>
             </div>
           </div>
         </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="bueroreinigung.html"><img src="assets/img/photos/office-cleaning.jpg" alt="Büroreinigung"
-                class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="card-text">Büro&shy;reinigung</h3>
-              <p class="card-text">Nur an einem sauberen und gepflegten Arbeitsplatz kann man einen effizienten und
-                angenehmen Arbeitstag verleben. Wir reinigen alle Arten von Büroräumen - von mittelgroßen Firmen bis hin
-                zu den Büroetagen großer Unternehmen, sowie Büros von Verwaltungen und Schulen.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="bueroreinigung.html">Mehr</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="bauendreinigung.html"><img src="assets/img/photos/construction-site.jpg" alt="Bauendreinigung"
-                class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="card-text">Bauend&shy;reinigung</h3>
-              <p class="card-text">Als flexibler Dienstleister sind wir in der Lage schnell für Ordnung auf dem Baufeld
-                zu sorgen. Zu unserem Service gehören weiterhin die Baufeinreinigung, Baugrobreinigung, das Schützen von
-                Einbauteilen bis hin zum herstellen der Bausicherheit.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="bauendreinigung.html">Mehr</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="fensterreinigung.html"><img src="assets/img/photos/cleaning-windows.jpg" alt="Fensterreinigung"
-                class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="card-text">Fenster&shy;reinigung</h3>
-              <p class="card-text">Wir reinigen ihre Fenster mit und ohne Rahmenreinigung und bringen auch alle anderen
-                Glasoberflächen zum glänzen miut Sorgfalt und Behutsamkeit.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="fensterreinigung.html">Mehr</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="gastronomiereinigung.html"><img src="assets/img/photos/slider/restaurant.jpg"
-                alt="Gastronomiereinigung" class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="card-text">Gastro&shy;nomie&shy;reinigung</h3>
-              <p class="card-text">Als Gastronom sorgen Sie sich nicht nur um das Wohl Ihrer Gäste sondern achten auch
-                auf die Hygiene
-                in Ihrem Betrieb.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="gastronomiereinigung.html">Mehr</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="unterhaltsreinigung.html"><img src="assets/img/photos/grundreinigung.jpg" alt="Unterhaltsreinigung"
-                class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="cart-text">Grund&shy;reinigung</h3>
-              <p class="card-text">Unter der Grundreinigung versteht man das gründliche reinigen. Wenn Sie sich für die
-                Grundreinigung Ihres Büros oder Wohnung interessieren, dann sind wir Ihr leistungsstarker Partner.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="grundreinigung.html">Mehr</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="hausbetreuung.html"><img src="assets/img/photos/slider/hausbetreuung.jpg" alt="Hausbetreuung"
-                class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="card-text">Haus&shy;betreuung</h3>
-              <p class="card-text">Wir betreuen Ihre Liegenschaft oder Ihr Wohnhaus zuverlässig und professionell. So
-                können Sie sich sorgenfrei, wohl und sicher fühlen.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="hausbetreuung.html">Mehr</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="hotelreinigung.html"><img src="assets/img/photos/hotel-room.jpg" alt="Hotelreinigung"
-                class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="card-text">Hotel&shy;reinigung</h3>
-              <p class="card-text">Damit der erste Eindruck stimmt: Wir Profireiniger rücken für Sie jeden Winkel Ihres
-                Hotels in ein perfektes Licht.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="hotelreinigung.html">Mehr</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="ordinationsreinigung.html"><img src="assets/img/photos/slider/doctors-office.jpg"
-                alt="Ordinationsreinigung" class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="cart-text">Ordi&shy;nations&shy;reinigung</h3>
-              <p class="card-text">In Ihrer Ordination reicht Sauberkeit alleine nicht aus, Sie wollen gründliche
-                Hygiene und zuverlässige Desinfektion.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="ordinationsreinigung.html">Mehr</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="stiegenhausreinigung.html"><img src="assets/img/photos/stairs.jpg" alt="Stiegenhausreinigung"
-                class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="card-text">Stiegen&shy;haus&shy;reinigung</h3>
-              <p class="card-text">Wir sorgen für die fachgerechte Stiegenhausreinigung in Wien. Wo viele Menschen
-                arbeiten oder als Besucher hin kommen, müssen Eingangsbereiche und Treppenhäuser schon allein durch die
-                Nutzungsfrequenzen extremen Belastungen standhalten.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="stiegenhausreinigung.html">Mehr</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="winterdienst.html"><img src="assets/img/photos/slider/winterdienst.jpg" alt="Winterdienst"
-                class="img-fluid rounded-top"></a>
-            <div class="card-body">
-              <h3 class="cart-text">Winter&shy;dienst</h3>
-              <p class="card-text">Wir räumen zuverlässig Schnee und Eis.
-                Wir lassen Sie auch in diesem Winter nicht im Stich.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-primary" href="winterdienst.html">Mehr</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
-  </div>
 
-  <section class="container-fluid p-5" id="pricecalculator">
-    <div class="row mt-5">
-      <div class="col-md-10 offset-md-1">
-        <h3 class="text-center">Preisrechner</h3>
-        <p>Hier können Sie sich eine ungefähre Vorstellung von unserer Preisgestaltung für
-          <strong>Wohnungsreinigung</strong> und <strong>Büroreinigung</strong> machen. Bitte beachten Sie, dass es sich
-          hier um einen unverbindlichen Preisvorschlag handelt, der einem verbindlichen Preis nur dann nahekommt, wenn
-          es keine ungewöhnliche Verunreinigungen gibt oder zu besonderen Komplikationen kommt.
-        </p>
+    <div class="container py-2" id="kontakt">
+      <div class="row mt-5 mb-1">
+        <div class="col-md-6 py-4">
+          <h2>Kontakt</h2>
+          <p>
+            Wir sind der richtige Ansprechpartner für Ihre Reinigungswünsche.
+          </p>
+          <p>
+            Wir kümmern uns gerne um Ihre Anliegen. Egal wie speziell Ihr
+            Leistungswunsch auch sein mag, wir sind flexibel und unser Angebot
+            richtet sich nach Ihren individuellen Bedürfnissen. Dabei arbeiten
+            wir zuverlässig, gründlich und preiswert, damit Sie sich voll und
+            ganz auf Ihr Kerngeschäft konzentrieren können.
+          </p>
+        </div>
+        <div class="col-md-6 py-4">
+          <h2>Schreiben Sie uns</h2>
+          <p>
+            Wir erstellen gerne ein Angebot, das auf Ihre Bedürfnisse
+            zugeschnitten ist. Unsere Erstberatung ist unverbindlich und
+            kostenfrei.
+          </p>
+          <div class="alert alert-secondary text-center" role="alert">
+            <p>
+              <img
+                src="assets/img/profireiniger-full-logo.svg"
+                alt="Die Profireiniger Estera GmbH"
+                width="150px"
+              />
+            </p>
+            <p>
+              Estera GmbH - <strong>Die Profireiniger</strong><br />
+              <strong>Email allgemein:</strong>
+              <a href="mailto:office@profireiniger.at"
+                >office@profireiniger.at</a
+              ><br />
+              <strong>Email Verkauf:</strong>
+              <a href="mailto:sales@profireiniger.at">sales@profireiniger.at</a
+              ><br />
+              <strong>Büroadresse:</strong> Frankgasse 6/2a, 1090 Wien<br />
+            </p>
+          </div>
+        </div>
       </div>
     </div>
+
     <div class="row">
-      <div class="col-md-6 mb-3">
-        <form class="alert alert-primary" role="alert">
-          <h3 class="text-center">Wohnungsreinigung</h3>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="qmWohnung">Quadratmeter:</span>
-            <input type="number" class="form-control" id="price-calculator-input-wohnung" value="10"
-              aria-describedby="squareMeters">
+      <div class="col-md-12 text-center">
+        <h3>Anfahrt zum Büro</h3>
+        <div id="mapsReplacement" class="text-center">
+          <div class="alert alert-warning m-5" role="alert">
+            <p>
+              Unsere Büroadresse lautet
+              <strong>Frankgasse 6, 1090 Wien</strong>. Sie finden uns gleich
+              hinter der Votivkirche.
+            </p>
+            <p>
+              Sie sehen die Karte von Google Maps nicht, weil Sie die
+              Cookie-Bestimmungen abgelehnt haben. Sie können die
+              <a href="https://goo.gl/maps/SgLF8jXq81k6paHz9" target="_blank"
+                >Karte direkt auf Google Maps ansehen</a
+              >
+              oder den
+              <a href="#" id="mapAccept">Cookie-Bestimmungen zustimmen.</a>
+            </p>
           </div>
-          <div class="my-2">
-            <button type="button" class="btn btn-outline-primary" id="calculation-button-wohnung">Berechnen</button>
-          </div>
-          <div id="resultWohnung"></div>
-        </form>
-      </div>
-      <div class="col-md-6 mb-3">
-        <form class="alert alert-success" role="alert">
-          <h3 class="text-center">Büroreinigung</h3>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="qmBuero">Quadratmeter:</span>
-            <input type="number" class="form-control" id="price-calculator-input-buero" value="10"
-              aria-describedby="squareMeters">
-          </div>
-          <div class="my-2">
-            <button type="button" class="btn btn-outline-success" id="calculation-button-buero">Berechnen</button>
-          </div>
-          <div id="resultBuero"></div>
-        </form>
+        </div>
       </div>
     </div>
-  </section>
 
-  <div class="container-fluid bg-primary text-light p-4 my-4">
-    <div class="container">
-      <div class="row my-5">
-        <div class="col-md-6 offset-md-1 p-4">
-          <h3>Profireiniger: Apartmentreinigung für Ihre AirBnB-, Kurzzeitmiete-, oder Booking-Wohnung</h3>
-
-          <p>Sie suchen ein zuverlässiges Reinigungsunternehmen für Ihre <strong>Apartmentreinigung?</strong> Wir sind
-            spezialisiert auf
-            die Reingigung von Apartments, die über <strong><a href="http://airbnb.at" target="_blank"
-                class="link-light">AirBnB</a></strong>, <strong><a href="http://booking.com" target="_blank"
-                class="link-light">Booking</a></strong>, <strong><a href="http://kurzzeitmiete.at" target="_blank" class="link-light">Kurzzeitmiete</a></strong> oder <strong><a href="http://kurzzeitwohnen.com/"
-                target="_blank" class="link-light">Kurzzeitwohnen</a></strong> vermietet werden.
-            Bei den
-            <strong>Profireinigern</strong> haben Sie jetzt den
-            richtigen Partner gefunden. Wir bringen Glanz und Reinheit in den Alltag Ihrer Gäste!
-          </p>
-
-          <p>Ihr professionelles und zuverlässiges Reinigungsunternehmen in Wien. Mit unserem erstklassig geschulten
-            Personal und modernster Ausrüstung bedienen wir alle Bereiche der Gebäudereinigung und wickeln Aufträge
-            jeder
-            Größenordnung ab.</p>
-
-          <p class="alert alert-primary"><strong>Bettwäsche-Service:</strong> Wir stellen gerne bei Bedarf auch
-            <strong>frische Bettwäsche, Handtücher und sonstige Accessoires von uns</strong> bereit.
-          </p>
-
-          <p>Melden Sie sich bei uns unter <a href="mailto:sales@profireiniger.at"
-              class="link-light">sales@profireiniger.at</a>, und wir
-            werden uns Ihrer Wünsche annehmen. Es gibt immer eine Lösung für Ihre
-            Bedürfnisse. Dafür sorgt das Profireiniger-Team schnell und unkompliziert.</p>
-            <p><a href="unterhaltsreinigung.html" class="btn btn-outline-light">Nähere Details</a></p>
+    <div class="container my-5" id="impressum">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Impressum</h2>
         </div>
-
-
+      </div>
+      <div class="row">
         <div class="col-md-4 p-4">
-          <h3>Reinigung von Apartments und Kurzzeitwohnungen</h3>
-          <p>Unsere gründliche Endreinigung eines Apartments nach dem Checkout beinhaltet folgende Dienstleistungen
-            (Reinigungsmaterial
-            wird von uns
-            mitgebracht):</p>
-          <ul>
-            <li>Mobiliaroberflächen reinigen/wischen</li>
-            <li>Komplettreinigung der Küche (inkl. Kühlschrank, Stauflächen und Herd)</li>
-            <li>Geschirrspülmittel/tabs nachfüllen/ersetzen</li>
-            <li>Geschirr, Besteck und sonstige Küchengeräte waschen/reinigen und auf Vollzähligkeit
-              überprüfen</li>
-            <li>Komplettreinigung der Sanitäranlagen (Dusche/Badewanne, sämtliche Keramik, Spiegel,
-              Armaturen, inklusive entkalken)</li>
-            <li>Fließen reinigen (Badboden- und -wandfliesen)</li>
-            <li>WC-Papier und Seife nachfüllen/ersetzen (Material wird von Ihnen bereitgestellt)</li>
-            <li>Fußböden saugen/wischen</li>
-            <li>Müll entsorgen (inkl. von Ihnen bereitgestellte Müllsäcke einsetzen)</li>
-            <li>Wechseln der Bettwäsche für max. vier Personen (frische Bettwäsche wird von Ihnen
-              bereitgestellt)</li>
-          </ul>
-          <!--
-          <a href="assets/pdf/profireiniger-flyer.pdf" target="_blank"><img src="assets/img/flyer.jpg"
-              alt="Profireiniger Flyer download" class="rounded" width="120px"></a>
-          <p class="p-3"><a href="assets/pdf/profireiniger-flyer.pdf" target="_blank"
-              class="btn btn-sm btn-outline-light">Flyer download</a></p>
-                    -->
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container py-2" id="video">
-    <div class="row mt-5">
-      <div class="col-md-12 text-center mt-5">
-        <h3>Videovorstellung</h3>
-        <div id="videoReplacement">
-          <div class="alert alert-warning" role="alert">
-            <p>Wir zeigen unser Youtube Video nicht an, weil Sie den Cookie-Bestimmungen nicht zugestimmt haben.</p>
-            <p>Sie können das <a href="https://youtu.be/b_xoEakVeh0" target="_blank">Video direkt auf Youtube
-                ansehen</a> oder den <a href="#video" id="videoAccept">Cookie-Bestimmungen zustimmen.</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container py-2" id="kontakt">
-    <div class="row mt-5 mb-1">
-      <div class="col-md-6 py-4">
-        <h2>Kontakt</h2>
-        <p>Wir sind der richtige Ansprechpartner für Ihre Reinigungswünsche.</p>
-        <p>Wir kümmern uns gerne um Ihre Anliegen. Egal wie speziell Ihr Leistungswunsch auch sein mag, wir sind
-          flexibel und unser Angebot richtet sich nach Ihren individuellen Bedürfnissen. Dabei arbeiten wir zuverlässig,
-          gründlich und preiswert, damit Sie sich voll und ganz auf Ihr Kerngeschäft konzentrieren können.</p>
-      </div>
-      <div class="col-md-6 py-4">
-        <h2>Schreiben Sie uns</h2>
-        <p>Wir erstellen gerne ein Angebot, das auf Ihre Bedürfnisse zugeschnitten ist. Unsere Erstberatung ist
-          unverbindlich und kostenfrei.</p>
-        <div class="alert alert-secondary text-center" role="alert">
-          <p><img src="assets/img/profireiniger-full-logo.svg" alt="Die Profireiniger Estera GmbH" width="150px"></p>
-          <p>Estera GmbH - <strong>Die Profireiniger</strong><br />
-            <strong>Email allgemein:</strong> <a href="mailto:office@profireiniger.at">office@profireiniger.at</a><br />
-            <strong>Email Verkauf:</strong> <a href="mailto:sales@profireiniger.at">sales@profireiniger.at</a><br />
+          <img
+            src="assets/img/profireiniger-full-logo.svg"
+            alt="Die Profireiniger Estera GmbH"
+            width="180px"
+          />
+          <p>
+            <strong>Estera GmbH - Die Profireiniger</strong><br />
+            <strong>Email:</strong>
+            <a href="mailto:office@profireiniger.at">office@profireiniger.at</a>
+            und
+            <a href="mailto:sales@profireiniger.at">sales@profireiniger.at</a
+            ><br />
             <strong>Büroadresse:</strong> Frankgasse 6/2a, 1090 Wien<br />
           </p>
         </div>
-        <!--
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Ihre Email-Adresse:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@adresse.at">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Ihre Telefonnummer:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="01 123 123 123">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Ihre Nachricht:</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="mb-3">
-          <a class="btn btn-lg btn-primary" href="cancel.html">Nachricht senden</a>
-        </div>
-        -->
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <h3>Anfahrt zum Büro</h3>
-      <div id="mapsReplacement" class="text-center">
-        <div class="alert alert-warning m-5" role="alert">
-          <p>Unsere Büroadresse lautet <strong>Frankgasse 6, 1090 Wien</strong>. Sie finden uns gleich hinter der
-            Votivkirche.</p>
-          <p>Sie sehen die Karte von Google Maps nicht, weil Sie die Cookie-Bestimmungen abgelehnt haben. Sie können
-            die <a href="https://goo.gl/maps/SgLF8jXq81k6paHz9" target="_blank">Karte direkt auf Google Maps
-              ansehen</a> oder den <a href="#" id="mapAccept">Cookie-Bestimmungen zustimmen.</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container my-5" id="impressum">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2>Impressum</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 p-4">
-        <img src="assets/img/profireiniger-full-logo.svg" alt="Die Profireiniger Estera GmbH" width="180px">
-        <p><strong>Estera GmbH - Die Profireiniger</strong><br />
-          <strong>Email:</strong> <a href="mailto:office@profireiniger.at">office@profireiniger.at</a> und <a
-            href="mailto:sales@profireiniger.at">sales@profireiniger.at</a><br />
-          <!-- <strong>Telefon:</strong> 01 / 123 456 789<br /> -->
-          <strong>Büroadresse:</strong> Frankgasse 6/2a, 1090 Wien<br />
-        </p>
-      </div>
-      <div class="col-md-8 p-4">
-        <p><strong>Vollständiger Firmenname:</strong> Estera GmbH<br />
-          <strong>Firmenbuchnummer:</strong> FN 578149 w<br />
-          <strong>UID:</strong> ATU 78536826<br/>
-          <strong>Ort der Gewerbeberechtigung:</strong> Heiligenstädter Straße 111/3, 1190 Wien<br />
-          <strong>Rechtsform:</strong> GmbH<br />
-          <strong>Firmenbuchgericht:</strong> Handelsgericht Wien<br />
-          <strong>Geschäftsführerin:</strong> Frau Estera-Sinziana Gordea<br />
-          <strong>Gewerbeordnung:</strong> Anwendbare gewerbe- oder berufsrechtliche Vorschriften in der
-          Gewerbeordnung 1994,
-          abrufbar unter <a href="http://www.ris.bka.gv.at">www.ris.bka.gv.at</a><br />
-          <strong>Telefon: </strong>+43 676 672 74 72<br />
-          <strong>Allgemeine Geschäftsbedingungen:</strong> <a href="agb.html"
-            target="_blank">profireiniger.at/agb.html</a><br />
-          <strong>Bildmaterial:</strong> <a href="https://unsplash.com" target="_blank">Unsplash</a>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <footer class="py-5 bg-success text-white">
-    <div class="container">
-      <p class="m-0 text-center"><img src="assets/img/profireiniger-full-logo-white.svg"
-          alt="Die Profireiniger - Estera GmbH" width="200px"></p>
-      <p class="m-0 text-center">&copy; Estera GmbH - Die Profireiniger</p>
-      <p class="m-0 text-center">Designed by <a href="https://marincomics.com" class="link-light"
-        target="_blank">MarinComics</a></p>
-    </div>
-  </footer>
-  <div id="cookieArea">
-    <div id="dsgvo-warnung">
-      <div class="fixed-bottom alert alert-info mx-5 p-3 alert-dismissible" role="alert">
-        <div class="text-center px-4">
-          <p>Wir verwenden <strong>Google Maps</strong> für das Besuchertracking, den Angaben zu unserem Bürostandort
-            und
-            <strong>Youtube</strong> für unser Video. Dabei kann <strong>Google</strong> Ihre Daten tracken.<br />Wir
-            verwenden Google Analytics, zeigen die Karte und unser Video nur an, wenn Sie zustimmen.
+        <div class="col-md-8 p-4">
+          <p>
+            <strong>Vollständiger Firmenname:</strong> Estera GmbH<br />
+            <strong>Firmenbuchnummer:</strong> FN 578149 w<br />
+            <strong>UID:</strong> ATU 78536826<br />
+            <strong>Ort der Gewerbeberechtigung:</strong> Heiligenstädter Straße
+            111/3, 1190 Wien<br />
+            <strong>Rechtsform:</strong> GmbH<br />
+            <strong>Firmenbuchgericht:</strong> Handelsgericht Wien<br />
+            <strong>Geschäftsführerin:</strong> Frau Estera-Sinziana Gordea<br />
+            <strong>Gewerbeordnung:</strong> Anwendbare gewerbe- oder
+            berufsrechtliche Vorschriften in der Gewerbeordnung 1994, abrufbar
+            unter <a href="http://www.ris.bka.gv.at">www.ris.bka.gv.at</a><br />
+            <strong>Telefon: </strong>+43 676 672 74 72<br />
+            <strong>Allgemeine Geschäftsbedingungen:</strong>
+            <a href="agb.html" target="_blank">profireiniger.at/agb.html</a
+            ><br />
+            <strong>Bildmaterial:</strong>
+            <a href="https://unsplash.com" target="_blank">Unsplash</a>
           </p>
-          <p><button type="button" class="btn btn-sm btn-primary mx-1" onclick="acceptCookieNotice()"
-              data-bs-dismiss="alert" aria-label="Close">Zustimmen</button><button type="button"
-              class="btn btn-sm btn-secondary mx-1" onclick="rejectCookieNotice()" data-bs-dismiss="alert"
-              aria-label="Close">Ablehnen</button></p>
         </div>
       </div>
     </div>
-  </div>
-  <script src="assets/js/price-calculator.js"></script>
-  <script src="assets/js/price-calculator-flat.js"></script>
-  <script src="assets/js/price-calculator-office.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/cookies.js"></script>
-</body>
 
+    <footer class="py-5 bg-success text-white">
+      <div class="container">
+        <p class="m-0 text-center">
+          <img
+            src="assets/img/profireiniger-full-logo-white.svg"
+            alt="Die Profireiniger - Estera GmbH"
+            width="200px"
+          />
+        </p>
+        <p class="m-0 text-center">&copy; Estera GmbH - Die Profireiniger</p>
+        <p class="m-0 text-center">
+          Designed by
+          <a href="https://marincomics.com" class="link-light" target="_blank"
+            >MarinComics</a
+          >
+        </p>
+      </div>
+    </footer>
+    <div id="cookieArea">
+      <div id="dsgvo-warnung">
+        <div
+          class="fixed-bottom alert alert-info mx-5 p-3 alert-dismissible"
+          role="alert"
+        >
+          <div class="text-center px-4">
+            <p>
+              Wir verwenden <strong>Google Maps</strong> für das
+              Besuchertracking, den Angaben zu unserem Bürostandort und
+              <strong>Youtube</strong> für unser Video. Dabei kann
+              <strong>Google</strong> Ihre Daten tracken.<br />Wir verwenden
+              Google Analytics, zeigen die Karte und unser Video nur an, wenn
+              Sie zustimmen.
+            </p>
+            <p>
+              <button
+                type="button"
+                class="btn btn-sm btn-primary mx-1"
+                onclick="acceptCookieNotice()"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              >
+                Zustimmen</button
+              ><button
+                type="button"
+                class="btn btn-sm btn-secondary mx-1"
+                onclick="rejectCookieNotice()"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              >
+                Ablehnen
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/price-calculator.js"></script>
+    <script src="assets/js/price-calculator-flat.js"></script>
+    <script src="assets/js/price-calculator-office.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/cookies.js"></script>
+  </body>
 </html>
